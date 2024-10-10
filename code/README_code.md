@@ -1,20 +1,22 @@
-# Code for structuring the "Maschinenindustrie 1937" book
+# Codes
 
-* save page-xml files into `../data/raw_data/`.
+* ensure that PAGE-XML files are in `../data/ocr_output/`.
 * create a virtual environment `python -m venv venv`
 * activate the virtual environment `source venv/bin/activate`
 * install the dependencies `pip install -r requirements.txt`
-* run script `python book2entities.py`
+* run script `python book2entities.py`, it will create structured data in `../data/structured_data/`
+* run script `python entities2kg` to upload data into a Wikibase knowledge graph instance
+* run script `python semantify.py` to semantify strings in the knowledge graph
 
 ## Segmentation into segments with separate entities
 
-* see class PageTwoColumns
+* see class PageTwoColumns in book2entities.py
 * geometrically via coordinates
 * exceptions are taken into account
 
 ## Merging segments from consequent pages and getting the entities
 
-* see class Entities
+* see class Entities in book2entities.py
 * properties for entities are obtained via splitting using ':'
 * lines between ':' are unhyphenated and merged
 * dataframe with 5150 companies and 420 properties are saved into 'raw'-files
@@ -83,4 +85,4 @@ RECHTSFORM                 1717
 
 ## Code availability statement
 
-The codes for data structuring used in this project are openly available under MIT license.
+The codes for data structuring, upload and semantification, used in this project are openly available under MIT license.
