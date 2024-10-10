@@ -573,6 +573,6 @@ for col in cols:
     tablet[col] = tablet[col].apply(lambda s: s.rstrip('.').rstrip('. ') if type(s) == str else s)
 
 # SAVE RESULTS
-tablet.to_excel("MI1937_processed.xlsx", sheet_name='Maschinenindustrie_1937_v1')
-tablet.to_csv("MI1937_processed.csv", sep=',', quoting=csv.QUOTE_ALL)
+# tablet.to_excel("../data/structured_data/MBI_1937_structured.xlsx", sheet_name='Maschinenindustrie_1937_v1')
+tablet.to_csv("../data/structured_data/MBI_1937_structured.csv", sep=',', quoting=csv.QUOTE_ALL)
 tablet.describe()
