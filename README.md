@@ -21,16 +21,37 @@
 MBI-KG/
 ├── docs/
 │   ├── talks/
+│   │   ├── README_talks.md
+│   │   ├── 2023.05.05_EURHISFIRM-Workshop-Kamlah-Shigapov.pdf
+│   │   └── 2022.11.23_NFDI-Workshop-Research-Data-Maschinenindustrie-EN.pdf
 │   ├── sparql_examples/
+│   │   └── README_sparql_examples.md
 │   └── README_docs.md
 ├── data/
 │   ├── structured_data/
+│   │   ├── README_structured_data.md
+│   │   └── MBI_1937_structured.csv
 │   ├── scanned_images/
+│   │   └── README_scanned_images.md
 │   ├── ocr_output/
+│   │   └── README_ocr_output.md
 │   ├── models/
+│   │   ├── mbi-1937_print.mlmodel
+│   │   ├── mbi-1937_layout.mlmodel
+│   │   └── README_models.md
+│   ├── kg_dataset/
+│   │   ├── README_kg_dataset.md
+│   │   ├── MBI_KG_bulk_cli_v1.0.ttl
+│   │   ├── MBI_KG_bulk_cli_v1.0.json
+│   │   ├── MBI_KG_bulk_api_v1.0.ndjson
+│   │   └── MBI_KG_bulk_api_v1.0.csv
 │   └── README_data.md
 ├── code/
+│   ├── semantify.py
 │   ├── requirements.txt
+│   ├── entities2kg.py
+│   ├── create_bulk_files_cli.sh
+│   ├── create_bulk_files_api.py
 │   ├── book2entities.py
 │   └── README_code.md
 ├── README.md
@@ -46,7 +67,8 @@ The folder `data` contains the data used in this project:
 * `structured_data` contains the structured data in CSV, JSON and RDF formats, representing various entities such as companies, individuals, and administrative entities.
 * `scanned_images` contains the scanned images of the original book pages in JPEG format with 400 dpi.
 * `ocr_output` contains the raw text output from the Optical Character Recognition (OCR) process, saved in plain text files.
-* `models` contain the OCR-models
+* `models` contains the OCR-models
+* `kg-dataset` contains bulk data exported via Wikibase API (in CSV and NFJSON formats) and also via command line php-scripts (in ttl and JSON formats)
 
 **Data availability statement:** Data used in this project are freely available under the CC BY license.
 
