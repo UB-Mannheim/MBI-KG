@@ -6,76 +6,74 @@ from urllib.parse import urlencode
 
 # Set up the endpoint URL and query
 SPARQL_ENDPOINT = "https://query.mbi.kgi.uni-mannheim.de/proxy/wdqs/bigdata/namespace/wdq/sparql"
-QUERY_TEMPLATE = """SELECT DISTINCT ?company ?companyLabel ?SIEHE ?RAW_TEXT (year(?inc) as ?inception) ?POSTSCHECKKONTO ?FERNRUF ?DRAHTANSCHRIFT 
-  ?QID ?instanceOf ?FILE_SEGMENT ?FABRIKATIONSPROGRAMM ?BANKVERBINDUNGEN ?ANLAGEN ?INHABER ?GRUNDBESITZ ?ANGABEN 
-  ?PROKURISTEN ?GEFOLGSCHAFT ?EIGENE_VERTRETUNGEN ?GESCHÄFTSFÜHRER ?GRÜNDUNG ?AUFSICHTSRAT ?ANTEILSEIGNER ?VORSTAND 
-  ?KAPITAL ?TOCHTERGESELLSCHAFTEN ?AKTIONÄRE ?NUTZFLÄCHE ?GESELLSCHAFTER ?GESCHÄFTSJAHR ?FIRMA_GEHÖRT ?BETEILIGUNGEN 
-  ?KOMPLEMENTÄRE ?SPEZIALITÄT ?BEVOLLMÄCHTIGTE ?GESCHÄFTSINHABER_FÜHRER ?NIEDERLASSUNGEN ?UMSATZ ?VERTRÄGE ?VERKAUFSBÜRO 
-  ?KOMMANDITISTEN ?FABRIKATIONSANLAGEN ?RECHTSFORM ?CITY ?STREET ?legalForm ?country ?headquartersLocation ?ownedBy 
-  ?coordinateLocation ?ownerOf ?authorizedSignatoryOf ?Prokurist ?inverseProperty
-WHERE {{
-  ?company rdfs:label ?companyLabel;
+QUERY_TEMPLATE = """SELECT DISTINCT ?companyQID ?companyLabel ?SIEHE ?RAW_TEXT (YEAR(?inc) AS ?inception) ?POSTSCHECKKONTO ?FERNRUF ?DRAHTANSCHRIFT ?instanceOf ?FILE_SEGMENT ?FABRIKATIONSPROGRAMM ?BANKVERBINDUNGEN ?ANLAGEN ?INHABER ?GRUNDBESITZ ?ANGABEN ?PROKURISTEN ?GEFOLGSCHAFT ?EIGENE_VERTRETUNGEN ?GESCHÄFTSFÜHRER ?GRÜNDUNG ?AUFSICHTSRAT ?ANTEILSEIGNER ?VORSTAND ?KAPITAL ?TOCHTERGESELLSCHAFTEN ?AKTIONÄRE ?NUTZFLÄCHE ?GESELLSCHAFTER ?GESCHÄFTSJAHR ?FIRMA_GEHÖRT ?BETEILIGUNGEN ?KOMPLEMENTÄRE ?SPEZIALITÄT ?BEVOLLMÄCHTIGTE ?GESCHÄFTSINHABER_FÜHRER ?NIEDERLASSUNGEN ?UMSATZ ?VERTRÄGE ?VERKAUFSBÜRO ?KOMMANDITISTEN ?FABRIKATIONSANLAGEN ?RECHTSFORM ?CITY ?STREET (GROUP_CONCAT(DISTINCT ?legalForm; SEPARATOR = "; ") AS ?legalForms) (GROUP_CONCAT(DISTINCT ?legalFormWikidataQID; SEPARATOR = "; ") AS ?legalFormWikidataQIDs) ?country ?headquartersLocation (GROUP_CONCAT(DISTINCT ?headquartersWikidataQID; SEPARATOR = "; ") AS ?headquartersWikidataQIDs) ?headquartersLatitude ?headquartersLongitude ?ownedBy ?Prokurist WHERE {{
+  ?companyQID rdfs:label ?companyLabel;
     wdt:P3 wd:Q1.
-  
-  OPTIONAL {{ ?company wdt:P2 ?QID. }}                     
-  OPTIONAL {{ ?company wdt:P3 ?instanceOf. }}               
-  OPTIONAL {{ ?company wdt:P4 ?RAW_TEXT. }}                 
-  OPTIONAL {{ ?company wdt:P5 ?FILE_SEGMENT. }}             
-  OPTIONAL {{ ?company wdt:P6 ?FABRIKATIONSPROGRAMM. }}     
-  OPTIONAL {{ ?company wdt:P7 ?POSTSCHECKKONTO. }}          
-  OPTIONAL {{ ?company wdt:P8 ?FERNRUF. }}                  
-  OPTIONAL {{ ?company wdt:P9 ?DRAHTANSCHRIFT. }}           
-  OPTIONAL {{ ?company wdt:P10 ?BANKVERBINDUNGEN. }}        
-  OPTIONAL {{ ?company wdt:P11 ?ANLAGEN. }}                 
-  OPTIONAL {{ ?company wdt:P12 ?INHABER. }}                 
-  OPTIONAL {{ ?company wdt:P13 ?GRUNDBESITZ. }}             
-  OPTIONAL {{ ?company wdt:P14 ?ANGABEN. }}                 
-  OPTIONAL {{ ?company wdt:P15 ?PROKURISTEN. }}             
-  OPTIONAL {{ ?company wdt:P16 ?GEFOLGSCHAFT. }}            
-  OPTIONAL {{ ?company wdt:P17 ?EIGENE_VERTRETUNGEN. }}     
-  OPTIONAL {{ ?company wdt:P18 ?GESCHÄFTSFÜHRER. }}         
-  OPTIONAL {{ ?company wdt:P19 ?GRÜNDUNG. }}                
-  OPTIONAL {{ ?company wdt:P20 ?SIEHE. }}                   
-  OPTIONAL {{ ?company wdt:P21 ?AUFSICHTSRAT. }}            
-  OPTIONAL {{ ?company wdt:P22 ?ANTEILSEIGNER. }}           
-  OPTIONAL {{ ?company wdt:P23 ?VORSTAND. }}                
-  OPTIONAL {{ ?company wdt:P24 ?KAPITAL. }}                 
-  OPTIONAL {{ ?company wdt:P25 ?TOCHTERGESELLSCHAFTEN. }}   
-  OPTIONAL {{ ?company wdt:P26 ?AKTIONÄRE. }}               
-  OPTIONAL {{ ?company wdt:P27 ?NUTZFLÄCHE. }}              
-  OPTIONAL {{ ?company wdt:P28 ?GESELLSCHAFTER. }}          
-  OPTIONAL {{ ?company wdt:P29 ?GESCHÄFTSJAHR. }}           
-  OPTIONAL {{ ?company wdt:P30 ?FIRMA_GEHÖRT. }}            
-  OPTIONAL {{ ?company wdt:P31 ?BETEILIGUNGEN. }}           
-  OPTIONAL {{ ?company wdt:P32 ?KOMPLEMENTÄRE. }}           
-  OPTIONAL {{ ?company wdt:P33 ?SPEZIALITÄT. }}             
-  OPTIONAL {{ ?company wdt:P34 ?BEVOLLMÄCHTIGTE. }}         
-  OPTIONAL {{ ?company wdt:P35 ?GESCHÄFTSINHABER_FÜHRER. }} 
-  OPTIONAL {{ ?company wdt:P36 ?NIEDERLASSUNGEN. }}         
-  OPTIONAL {{ ?company wdt:P37 ?UMSATZ. }}                  
-  OPTIONAL {{ ?company wdt:P38 ?VERTRÄGE. }}                
-  OPTIONAL {{ ?company wdt:P39 ?VERKAUFSBÜRO. }}            
-  OPTIONAL {{ ?company wdt:P40 ?KOMMANDITISTEN. }}          
-  OPTIONAL {{ ?company wdt:P41 ?FABRIKATIONSANLAGEN. }}     
-  OPTIONAL {{ ?company wdt:P42 ?RECHTSFORM. }}              
-  OPTIONAL {{ ?company wdt:P43 ?CITY. }}                    
-  OPTIONAL {{ ?company wdt:P44 ?STREET. }}                  
-  OPTIONAL {{ ?company wdt:P45 ?legalForm. }}               
-  OPTIONAL {{ ?company wdt:P46 ?inc. }}                     
-  OPTIONAL {{ ?company wdt:P47 ?country. }}                 
-  OPTIONAL {{ ?company wdt:P48 ?headquartersLocation. }}    
-  OPTIONAL {{ ?company wdt:P49 ?ownedBy. }}                 
-  OPTIONAL {{ ?company wdt:P50 ?coordinateLocation. }}      
-  OPTIONAL {{ ?company wdt:P52 ?ownerOf. }}                 
-  OPTIONAL {{ ?company wdt:P53 ?authorizedSignatoryOf. }}   
-  OPTIONAL {{ ?company wdt:P54 ?Prokurist. }}               
-  OPTIONAL {{ ?company wdt:P55 ?inverseProperty. }}         
-
+  OPTIONAL {{ ?companyQID wdt:P3 ?instanceOf. }}
+  OPTIONAL {{ ?companyQID wdt:P4 ?RAW_TEXT. }}
+  OPTIONAL {{ ?companyQID wdt:P5 ?FILE_SEGMENT. }}
+  OPTIONAL {{ ?companyQID wdt:P6 ?FABRIKATIONSPROGRAMM. }}
+  OPTIONAL {{ ?companyQID wdt:P7 ?POSTSCHECKKONTO. }}
+  OPTIONAL {{ ?companyQID wdt:P8 ?FERNRUF. }}
+  OPTIONAL {{ ?companyQID wdt:P9 ?DRAHTANSCHRIFT. }}
+  OPTIONAL {{ ?companyQID wdt:P10 ?BANKVERBINDUNGEN. }}
+  OPTIONAL {{ ?companyQID wdt:P11 ?ANLAGEN. }}
+  OPTIONAL {{ ?companyQID wdt:P12 ?INHABER. }}
+  OPTIONAL {{ ?companyQID wdt:P13 ?GRUNDBESITZ. }}
+  OPTIONAL {{ ?companyQID wdt:P14 ?ANGABEN. }}
+  OPTIONAL {{ ?companyQID wdt:P15 ?PROKURISTEN. }}
+  OPTIONAL {{ ?companyQID wdt:P16 ?GEFOLGSCHAFT. }}
+  OPTIONAL {{ ?companyQID wdt:P17 ?EIGENE_VERTRETUNGEN. }}
+  OPTIONAL {{ ?companyQID wdt:P18 ?GESCHÄFTSFÜHRER. }}
+  OPTIONAL {{ ?companyQID wdt:P19 ?GRÜNDUNG. }}
+  OPTIONAL {{ ?companyQID wdt:P20 ?SIEHE. }}
+  OPTIONAL {{ ?companyQID wdt:P21 ?AUFSICHTSRAT. }}
+  OPTIONAL {{ ?companyQID wdt:P22 ?ANTEILSEIGNER. }}
+  OPTIONAL {{ ?companyQID wdt:P23 ?VORSTAND. }}
+  OPTIONAL {{ ?companyQID wdt:P24 ?KAPITAL. }}
+  OPTIONAL {{ ?companyQID wdt:P25 ?TOCHTERGESELLSCHAFTEN. }}
+  OPTIONAL {{ ?companyQID wdt:P26 ?AKTIONÄRE. }}
+  OPTIONAL {{ ?companyQID wdt:P27 ?NUTZFLÄCHE. }}
+  OPTIONAL {{ ?companyQID wdt:P28 ?GESELLSCHAFTER. }}
+  OPTIONAL {{ ?companyQID wdt:P29 ?GESCHÄFTSJAHR. }}
+  OPTIONAL {{ ?companyQID wdt:P30 ?FIRMA_GEHÖRT. }}
+  OPTIONAL {{ ?companyQID wdt:P31 ?BETEILIGUNGEN. }}
+  OPTIONAL {{ ?companyQID wdt:P32 ?KOMPLEMENTÄRE. }}
+  OPTIONAL {{ ?companyQID wdt:P33 ?SPEZIALITÄT. }}
+  OPTIONAL {{ ?companyQID wdt:P34 ?BEVOLLMÄCHTIGTE. }}
+  OPTIONAL {{ ?companyQID wdt:P35 ?GESCHÄFTSINHABER_FÜHRER. }}
+  OPTIONAL {{ ?companyQID wdt:P36 ?NIEDERLASSUNGEN. }}
+  OPTIONAL {{ ?companyQID wdt:P37 ?UMSATZ. }}
+  OPTIONAL {{ ?companyQID wdt:P38 ?VERTRÄGE. }}
+  OPTIONAL {{ ?companyQID wdt:P39 ?VERKAUFSBÜRO. }}
+  OPTIONAL {{ ?companyQID wdt:P40 ?KOMMANDITISTEN. }}
+  OPTIONAL {{ ?companyQID wdt:P41 ?FABRIKATIONSANLAGEN. }}
+  OPTIONAL {{ ?companyQID wdt:P42 ?RECHTSFORM. }}
+  OPTIONAL {{ ?companyQID wdt:P43 ?CITY. }}
+  OPTIONAL {{ ?companyQID wdt:P44 ?STREET. }}
+  OPTIONAL {{
+    ?companyQID wdt:P45 ?legalForm.
+    ?legalForm wdt:P2 ?legalFormWikidataQID.
+  }}
+  OPTIONAL {{ ?companyQID wdt:P46 ?inc. }}
+  OPTIONAL {{ ?companyQID wdt:P47 ?country. }}
+  OPTIONAL {{
+    ?companyQID wdt:P48 ?headquartersLocation.
+    ?headquartersLocation wdt:P2 ?headquartersWikidataQID;
+      p:P50 ?statement.
+    ?statement psv:P50 ?coordinateNode.
+    ?coordinateNode wikibase:geoLatitude ?headquartersLatitude;
+      wikibase:geoLongitude ?headquartersLongitude.
+  }}
+  OPTIONAL {{ ?companyQID wdt:P49 ?ownedBy. }}
+  OPTIONAL {{ ?companyQID wdt:P54 ?Prokurist. }}
   FILTER((LANG(?companyLabel)) = "de")
 }}
+GROUP BY ?companyQID ?companyLabel ?SIEHE ?RAW_TEXT ?inc ?POSTSCHECKKONTO ?FERNRUF ?DRAHTANSCHRIFT ?instanceOf ?FILE_SEGMENT ?FABRIKATIONSPROGRAMM ?BANKVERBINDUNGEN ?ANLAGEN ?INHABER ?GRUNDBESITZ ?ANGABEN ?PROKURISTEN ?GEFOLGSCHAFT ?EIGENE_VERTRETUNGEN ?GESCHÄFTSFÜHRER ?GRÜNDUNG ?AUFSICHTSRAT ?ANTEILSEIGNER ?VORSTAND ?KAPITAL ?TOCHTERGESELLSCHAFTEN ?AKTIONÄRE ?NUTZFLÄCHE ?GESELLSCHAFTER ?GESCHÄFTSJAHR ?FIRMA_GEHÖRT ?BETEILIGUNGEN ?KOMPLEMENTÄRE ?SPEZIALITÄT ?BEVOLLMÄCHTIGTE ?GESCHÄFTSINHABER_FÜHRER ?NIEDERLASSUNGEN ?UMSATZ ?VERTRÄGE ?VERKAUFSBÜRO ?KOMMANDITISTEN ?FABRIKATIONSANLAGEN ?RECHTSFORM ?CITY ?STREET ?country ?headquartersLocation ?headquartersLatitude ?headquartersLongitude ?ownedBy ?Prokurist
 LIMIT {limit}
 OFFSET {offset}
 """
+
 COUNT_QUERY = """
 SELECT (COUNT(?company) AS ?companyCount)
 WHERE {
@@ -150,7 +148,7 @@ def save_to_ndjson(results, ndjson_filename):
 def main():
     filenamebase = "../data/kg_dataset/MBI_KG_bulk_api_"
     version = 'v1.0' # Version of the MBI-KG dataset
-    limit = 500  # Number of results per query
+    limit = 1000  # Number of results per query
     total_records = get_total_records()  # Total number of companies (5150 in v1.0)
     csv_filename = filenamebase + version + ".csv"
     ndjson_filename = filenamebase + version + ".ndjson"
