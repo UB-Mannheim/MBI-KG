@@ -6,11 +6,17 @@ from urllib.parse import urlencode
 
 # Set up the endpoint URL and query
 SPARQL_ENDPOINT = "https://query.mbi.kgi.uni-mannheim.de/proxy/wdqs/bigdata/namespace/wdq/sparql"
-QUERY_TEMPLATE = """SELECT DISTINCT ?companyQID ?companyLabel ?SIEHE ?RAW_TEXT (YEAR(?inc) AS ?inception) ?POSTSCHECKKONTO ?FERNRUF ?DRAHTANSCHRIFT ?instanceOf ?FILE_SEGMENT ?FABRIKATIONSPROGRAMM ?BANKVERBINDUNGEN ?ANLAGEN ?INHABER ?GRUNDBESITZ ?ANGABEN ?PROKURISTEN ?GEFOLGSCHAFT ?EIGENE_VERTRETUNGEN ?GESCHÄFTSFÜHRER ?GRÜNDUNG ?AUFSICHTSRAT ?ANTEILSEIGNER ?VORSTAND ?KAPITAL ?TOCHTERGESELLSCHAFTEN ?AKTIONÄRE ?NUTZFLÄCHE ?GESELLSCHAFTER ?GESCHÄFTSJAHR ?FIRMA_GEHÖRT ?BETEILIGUNGEN ?KOMPLEMENTÄRE ?SPEZIALITÄT ?BEVOLLMÄCHTIGTE ?GESCHÄFTSINHABER_FÜHRER ?NIEDERLASSUNGEN ?UMSATZ ?VERTRÄGE ?VERKAUFSBÜRO ?KOMMANDITISTEN ?FABRIKATIONSANLAGEN ?RECHTSFORM ?CITY ?STREET (GROUP_CONCAT(DISTINCT ?legalForm; SEPARATOR = "; ") AS ?legalForms) (GROUP_CONCAT(DISTINCT ?legalFormWikidataQID; SEPARATOR = "; ") AS ?legalFormWikidataQIDs) ?country ?headquartersLocation (GROUP_CONCAT(DISTINCT ?headquartersWikidataQID; SEPARATOR = "; ") AS ?headquartersWikidataQIDs) ?headquartersLatitude ?headquartersLongitude ?ownedBy ?Prokurist WHERE {{
+QUERY_TEMPLATE = """SELECT DISTINCT ?companyQID ?companyLabel ?SIEHE ?ROH_TEXT (YEAR(?Gründ) AS ?Gründung) ?POSTSCHECKKONTO ?FERNRUF ?DRAHTANSCHRIFT ?ist_ein ?FILE_SEGMENT ?FABRIKATIONSPROGRAMM ?BANKVERBINDUNGEN ?ANLAGEN ?INHABER ?GRUNDBESITZ ?ANGABEN ?PROKURISTEN ?GEFOLGSCHAFT ?EIGENE_VERTRETUNGEN ?GESCHÄFTSFÜHRER ?AUFSICHTSRAT ?ANTEILSEIGNER ?VORSTAND ?KAPITAL ?TOCHTERGESELLSCHAFTEN ?AKTIONÄRE ?NUTZFLÄCHE ?GESELLSCHAFTER ?GESCHÄFTSJAHR ?FIRMA_GEHÖRT ?BETEILIGUNGEN ?KOMPLEMENTÄRE ?SPEZIALITÄT ?BEVOLLMÄCHTIGTE ?GESCHÄFTSINHABER_FÜHRER ?NIEDERLASSUNGEN ?UMSATZ ?VERTRÄGE ?VERKAUFSBÜRO ?KOMMANDITISTEN ?FABRIKATIONSANLAGEN ?RECHTSFORM ?STADT ?STRASSE 
+(GROUP_CONCAT(DISTINCT ?Rechtsform; SEPARATOR = "; ") AS ?Rechtsformen)
+(GROUP_CONCAT(DISTINCT ?RechtsformWikidataQID; SEPARATOR = "; ") AS ?RechtsformWikidataQIDs)
+?Land ?Hauptstandort
+(GROUP_CONCAT(DISTINCT ?HauptstandortWikidataQID; SEPARATOR = "; ") AS ?HauptstandortWikidataQIDs)
+?HauptstandortBreite ?HauptstandortLänge ?im_Eigentum_von ?hat_Prokurist
+WHERE {{
   ?companyQID rdfs:label ?companyLabel;
     wdt:P3 wd:Q1.
-  OPTIONAL {{ ?companyQID wdt:P3 ?instanceOf. }}
-  OPTIONAL {{ ?companyQID wdt:P4 ?RAW_TEXT. }}
+  OPTIONAL {{ ?companyQID wdt:P3 ?ist_ein. }}
+  OPTIONAL {{ ?companyQID wdt:P4 ?ROH_TEXT. }}
   OPTIONAL {{ ?companyQID wdt:P5 ?FILE_SEGMENT. }}
   OPTIONAL {{ ?companyQID wdt:P6 ?FABRIKATIONSPROGRAMM. }}
   OPTIONAL {{ ?companyQID wdt:P7 ?POSTSCHECKKONTO. }}
@@ -49,27 +55,27 @@ QUERY_TEMPLATE = """SELECT DISTINCT ?companyQID ?companyLabel ?SIEHE ?RAW_TEXT (
   OPTIONAL {{ ?companyQID wdt:P40 ?KOMMANDITISTEN. }}
   OPTIONAL {{ ?companyQID wdt:P41 ?FABRIKATIONSANLAGEN. }}
   OPTIONAL {{ ?companyQID wdt:P42 ?RECHTSFORM. }}
-  OPTIONAL {{ ?companyQID wdt:P43 ?CITY. }}
-  OPTIONAL {{ ?companyQID wdt:P44 ?STREET. }}
+  OPTIONAL {{ ?companyQID wdt:P43 ?STADT. }}
+  OPTIONAL {{ ?companyQID wdt:P44 ?STRASSE. }}
   OPTIONAL {{
-    ?companyQID wdt:P45 ?legalForm.
-    ?legalForm wdt:P2 ?legalFormWikidataQID.
+    ?companyQID wdt:P45 ?Rechtsform.
+    ?Rechtsform wdt:P2 ?RechtsformWikidataQID.
   }}
-  OPTIONAL {{ ?companyQID wdt:P46 ?inc. }}
-  OPTIONAL {{ ?companyQID wdt:P47 ?country. }}
+  OPTIONAL {{ ?companyQID wdt:P46 ?Gründ. }}
+  OPTIONAL {{ ?companyQID wdt:P47 ?Land. }}
   OPTIONAL {{
-    ?companyQID wdt:P48 ?headquartersLocation.
-    ?headquartersLocation wdt:P2 ?headquartersWikidataQID;
+    ?companyQID wdt:P48 ?Hauptstandort.
+    ?Hauptstandort wdt:P2 ?HauptstandortWikidataQID;
       p:P50 ?statement.
     ?statement psv:P50 ?coordinateNode.
-    ?coordinateNode wikibase:geoLatitude ?headquartersLatitude;
-      wikibase:geoLongitude ?headquartersLongitude.
+    ?coordinateNode wikibase:geoLatitude ?HauptstandortBreite;
+      wikibase:geoLongitude ?HauptstandortLänge.
   }}
-  OPTIONAL {{ ?companyQID wdt:P49 ?ownedBy. }}
-  OPTIONAL {{ ?companyQID wdt:P54 ?Prokurist. }}
+  OPTIONAL {{ ?companyQID wdt:P49 ?im_Eigentum_von. }}
+  OPTIONAL {{ ?companyQID wdt:P54 ?hat_Prokurist. }}
   FILTER((LANG(?companyLabel)) = "de")
 }}
-GROUP BY ?companyQID ?companyLabel ?SIEHE ?RAW_TEXT ?inc ?POSTSCHECKKONTO ?FERNRUF ?DRAHTANSCHRIFT ?instanceOf ?FILE_SEGMENT ?FABRIKATIONSPROGRAMM ?BANKVERBINDUNGEN ?ANLAGEN ?INHABER ?GRUNDBESITZ ?ANGABEN ?PROKURISTEN ?GEFOLGSCHAFT ?EIGENE_VERTRETUNGEN ?GESCHÄFTSFÜHRER ?GRÜNDUNG ?AUFSICHTSRAT ?ANTEILSEIGNER ?VORSTAND ?KAPITAL ?TOCHTERGESELLSCHAFTEN ?AKTIONÄRE ?NUTZFLÄCHE ?GESELLSCHAFTER ?GESCHÄFTSJAHR ?FIRMA_GEHÖRT ?BETEILIGUNGEN ?KOMPLEMENTÄRE ?SPEZIALITÄT ?BEVOLLMÄCHTIGTE ?GESCHÄFTSINHABER_FÜHRER ?NIEDERLASSUNGEN ?UMSATZ ?VERTRÄGE ?VERKAUFSBÜRO ?KOMMANDITISTEN ?FABRIKATIONSANLAGEN ?RECHTSFORM ?CITY ?STREET ?country ?headquartersLocation ?headquartersLatitude ?headquartersLongitude ?ownedBy ?Prokurist
+GROUP BY ?companyQID ?companyLabel ?SIEHE ?ROH_TEXT ?Gründ ?POSTSCHECKKONTO ?FERNRUF ?DRAHTANSCHRIFT ?ist_ein ?FILE_SEGMENT ?FABRIKATIONSPROGRAMM ?BANKVERBINDUNGEN ?ANLAGEN ?INHABER ?GRUNDBESITZ ?ANGABEN ?PROKURISTEN ?GEFOLGSCHAFT ?EIGENE_VERTRETUNGEN ?GESCHÄFTSFÜHRER ?AUFSICHTSRAT ?ANTEILSEIGNER ?VORSTAND ?KAPITAL ?TOCHTERGESELLSCHAFTEN ?AKTIONÄRE ?NUTZFLÄCHE ?GESELLSCHAFTER ?GESCHÄFTSJAHR ?FIRMA_GEHÖRT ?BETEILIGUNGEN ?KOMPLEMENTÄRE ?SPEZIALITÄT ?BEVOLLMÄCHTIGTE ?GESCHÄFTSINHABER_FÜHRER ?NIEDERLASSUNGEN ?UMSATZ ?VERTRÄGE ?VERKAUFSBÜRO ?KOMMANDITISTEN ?FABRIKATIONSANLAGEN ?RECHTSFORM ?STADT ?STRASSE ?Land ?Hauptstandort ?HauptstandortBreite ?HauptstandortLänge ?im_Eigentum_von ?hat_Prokurist
 LIMIT {limit}
 OFFSET {offset}
 """
