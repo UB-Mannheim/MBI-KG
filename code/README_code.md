@@ -1,9 +1,9 @@
 # Codes
 
-* ensure that PAGE-XML files are in `../data/ocr_output/`.
+* ensure that PAGE-XML files are in `../data/ocr_output/`
 * create a virtual environment `python -m venv venv`
 * activate the virtual environment `source venv/bin/activate`
-* install the dependencies `pip install -r requirements.txt`
+* install the dependencies `pip install -r requirements.txt`. The requirements file was created via `pipreqs .`
 * run script `python book2entities.py`, it will create structured data in `../data/structured_data/`
 * run script `python entities2kg` to upload data into a Wikibase knowledge graph instance
 * run script `python semantify.py` to semantify strings in the knowledge graph
