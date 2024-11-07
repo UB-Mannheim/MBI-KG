@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+	<Creator>escriptorium</Creator>
+	<Created>2024-11-07T08:35:24.072504+00:00</Created>
+        <LastChange>2024-11-07T08:35:24.072524+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="maschinenindustrie_1937_0232.jpg" imageWidth="2796" imageHeight="4124">
+    <TextRegion id="r_2_1"  >
+      <Coords points="163,331 1323,331 1323,1081 163,1081"/>
+      <TextLine id="eSc_line_a53232cd" >
+        <Coords points="1281,320 1260,320 1244,332 1127,332 1093,320 1074,320 1051,320 1047,320 1024,329 951,320 937,320 923,320 909,332 907,334 802,334 799,332 781,320 776,320 754,320 731,320 708,320 689,320 657,332 655,332 625,320 616,320 593,320 591,320 552,332 543,334 538,332 515,320 501,320 497,320 453,332 435,320 433,320 410,320 387,320 364,320 341,320 318,320 295,320 284,320 270,332 197,320 181,320 158,357 160,380 160,398 1322,391 1324,373 1322,332 1287,320 1281,320"/>
+        <Baseline points="160,380 1324,373"/>
+        <TextEquiv conf="0.9999952896221264">
+          <Unicode>Friedrich Herbst, Hallesche Bäckerei-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_27ead0fd" >
+        <Coords points="162,451 162,476 1104,476 1104,451 1102,400 990,407 974,400 957,394 955,394 953,394 951,394 948,394 937,400 925,407 900,400 870,394 868,394 866,394 864,394 861,394 861,396 854,403 847,410 744,410 708,403 632,394 630,394 627,394 586,405 572,407 554,405 488,394 485,394 401,405 391,407 389,407 378,396 378,394 375,394 373,394 307,394 304,394 302,394 300,394 286,407 284,410 162,410 162,451"/>
+        <Baseline points="162,451 1104,451"/>
+        <TextEquiv conf="0.9999981634318829">
+          <Unicode>maschinen-Vertriebsgesellschaft,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_db3d11fb" >
+        <Coords points="160,522 160,547 485,545 524,552 559,556 561,556 609,552 678,545 744,552 776,556 779,556 781,556 788,554 804,545 907,554 941,556 944,556 946,556 951,554 976,545 1051,554 1065,556 1067,556 1070,556 1072,556 1072,554 1084,545 1260,545 1322,556 1324,522 1324,478 1285,467 1283,467 1281,467 813,478 783,467 781,467 779,467 712,478 614,467 611,467 547,478 511,467 508,467 506,467 504,467 474,478 437,467 435,467 433,467 430,467 428,467 428,469 417,481 302,481 291,469 291,467 288,467 286,467 176,467 174,467 171,467 169,467 160,474 160,522"/>
+        <Baseline points="160,522 1324,522"/>
+        <TextEquiv conf="0.9991936469689394">
+          <Unicode>Halle a. S. 2, Otto-Stomps-Str. 91-100,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_df6427af" >
+        <Coords points="158,552 160,595 160,616 616,614 618,588 614,547 536,531 533,531 531,531 485,545 451,531 449,531 446,531 444,531 403,547 401,547 398,547 368,531 366,531 364,531 362,531 316,547 307,549 302,547 284,533 281,533 279,533 277,533 160,545 158,552"/>
+        <Baseline points="160,595 618,588"/>
+        <TextEquiv conf="0.9999993324279786">
+          <Unicode>Schließfach 38.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b0c3fcc2" >
+        <Coords points="162,664 165,698 224,682 428,682 449,696 451,696 453,696 456,696 660,680 999,694 1003,659 996,616 160,620 162,664"/>
+        <Baseline points="162,664 1003,659"/>
+        <TextEquiv conf="0.9935858113425119">
+          <Unicode>Büro- und Lagerraum: Halle-Diemitz.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_14921fa7" >
+        <Coords points="160,721 160,744 504,737 506,717 499,680 158,682 160,721"/>
+        <Baseline points="160,721 506,717"/>
+        <TextEquiv conf="0.9741431698203087">
+          <Unicode>Fernruf: 25 880.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_994c7905" >
+        <Coords points="165,765 165,783 515,785 520,760 515,730 162,730 165,765"/>
+        <Baseline points="165,765 520,760"/>
+        <TextEquiv conf="0.999999984105428">
+          <Unicode>Gründung: 1930.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7daffe0b" >
+        <Coords points="165,806 165,827 1322,824 1322,799 1317,769 962,758 960,758 957,758 930,769 623,760 621,760 162,774 165,806"/>
+        <Baseline points="165,806 1322,799"/>
+        <TextEquiv conf="0.9996737492084503">
+          <Unicode>Fabrikationsprogramm: Teigknetmaschinen, Teigteil-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8ec078c2" >
+        <Coords points="165,847 165,877 1317,866 1320,843 1313,813 162,817 165,847"/>
+        <Baseline points="165,847 1320,843"/>
+        <TextEquiv conf="0.9999634483281303">
+          <Unicode>maschinen, Teigteil- u. Wirkmaschinen, Rühr- u. An-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8b70cc60" >
+        <Coords points="165,888 165,914 508,907 508,888 508,859 165,859 165,888"/>
+        <Baseline points="165,888 508,888"/>
+        <TextEquiv conf="0.9999999031424522">
+          <Unicode>schlagmaschinen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3b69cee1" >
+        <Coords points="162,932 162,955 1067,953 1070,927 1063,893 160,893 162,932"/>
+        <Baseline points="162,932 1070,927"/>
+        <TextEquiv conf="0.9961821029825908">
+          <Unicode>Inhaber: Curt Münch, Halle, Herrenstr. 6.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ab5a6f34" >
+        <Coords points="165,973 165,1001 1278,989 1278,969 1271,934 162,937 165,973"/>
+        <Baseline points="165,973 1278,969"/>
+        <TextEquiv conf="0.9999999829701015">
+          <Unicode>Bankverbindung: Mitteldeutsche Landesbank, Halle.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_de25864a" >
+        <Coords points="162,1017 162,1033 889,1040 891,1012 884,980 160,982 162,1017"/>
+        <Baseline points="162,1017 891,1012"/>
+        <TextEquiv conf="0.9878682169047269">
+          <Unicode>Postscheck-Konto: 29 773 Leipzig.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_02874be6" >
+        <Coords points="162,1060 162,1079 781,1081 783,1056 779,1019 160,1019 162,1060"/>
+        <Baseline points="162,1060 783,1056"/>
+        <TextEquiv conf="0.9972828584057944">
+          <Unicode>Geschäftsjahr: Kalenderjahr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_3_1"  >
+      <Coords points="164,1188 1322,1188 1322,1733 164,1733"/>
+      <TextLine id="eSc_line_e0b6b039" >
+        <Coords points="155,1209 158,1237 158,1253 847,1257 852,1232 850,1186 795,1170 792,1170 790,1170 788,1170 749,1184 694,1170 692,1170 689,1170 625,1184 623,1184 556,1170 554,1170 552,1170 550,1170 527,1184 483,1173 481,1173 478,1173 476,1173 474,1173 462,1184 458,1189 382,1189 380,1184 368,1175 368,1173 366,1173 364,1173 362,1173 359,1173 330,1184 323,1186 318,1184 300,1173 297,1173 295,1173 293,1173 158,1182 155,1209"/>
+        <Baseline points="158,1237 852,1232"/>
+        <TextEquiv>
+          <Unicode>E. Herbst &amp; Co. K.-G.,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0625502b" >
+        <Coords points="160,1308 160,1333 332,1331 352,1335 387,1342 389,1342 430,1335 474,1328 517,1335 547,1340 550,1340 552,1340 566,1335 591,1328 602,1335 607,1340 609,1340 611,1340 614,1342 724,1342 724,1340 790,1338 987,1326 1015,1338 1022,1301 1019,1260 976,1244 974,1244 971,1244 969,1244 909,1257 845,1246 843,1246 747,1257 728,1262 671,1262 666,1257 650,1246 648,1246 646,1246 465,1246 462,1246 460,1246 458,1246 444,1257 440,1262 426,1257 398,1248 396,1248 394,1248 391,1248 357,1257 336,1262 316,1257 284,1248 281,1248 279,1248 158,1255 160,1308"/>
+        <Baseline points="160,1308 1022,1301"/>
+        <TextEquiv conf="0.9999999177866968">
+          <Unicode>Halle (Saale), Blumenstr. 17.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8dfa866e" >
+        <Coords points="160,1372 160,1397 1065,1388 1067,1365 1063,1335 460,1326 458,1326 456,1326 417,1338 178,1328 176,1328 174,1328 171,1328 158,1335 160,1372"/>
+        <Baseline points="160,1372 1067,1365"/>
+        <TextEquiv conf="0.9998892298558864">
+          <Unicode>Fernruf: 21 861. Drahtanschrift: herbstco</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a4a0f729" >
+        <Coords points="165,1415 165,1436 520,1436 522,1411 515,1381 162,1383 165,1415"/>
+        <Baseline points="165,1415 522,1411"/>
+        <TextEquiv conf="0.9963850220044453">
+          <Unicode>Gründung: 1930.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_47dab00b" >
+        <Coords points="165,1457 165,1480 1322,1470 1324,1447 1320,1418 1033,1406 1031,1406 1029,1406 990,1418 987,1418 841,1409 838,1409 162,1422 165,1457"/>
+        <Baseline points="165,1457 1324,1447"/>
+        <TextEquiv conf="0.9998127348147906">
+          <Unicode>Fabrikationsprogramm: Bäckerei-, Konditorei- u. Mol-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_75d96aee" >
+        <Coords points="165,1498 165,1525 1320,1516 1320,1498 1320,1468 165,1464 165,1498"/>
+        <Baseline points="165,1498 1320,1498"/>
+        <TextEquiv conf="0.9999997498942357">
+          <Unicode>kereimaschinen. Rührmaschinen für die chemische In-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a302482f" >
+        <Coords points="165,1537 162,1560 311,1560 313,1541 311,1507 165,1505 165,1537"/>
+        <Baseline points="165,1537 313,1541"/>
+        <TextEquiv conf="1.0">
+          <Unicode>dustrie.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_062a46af" >
+        <Coords points="165,1585 165,1606 804,1606 806,1578 802,1546 162,1544 165,1585"/>
+        <Baseline points="165,1585 806,1578"/>
+        <TextEquiv conf="0.9999985959794786">
+          <Unicode>Komplementär: E. F. Herbst.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_951bf12d" >
+        <Coords points="165,1626 165,1654 1320,1649 1322,1619 1315,1587 162,1592 165,1626"/>
+        <Baseline points="165,1626 1322,1619"/>
+        <TextEquiv conf="0.9994208578969918">
+          <Unicode>Bankverbindung: Mitteldeutsche Landesbank, Halle/S.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_cb2b30cc" >
+        <Coords points="165,1663 162,1679 891,1683 896,1667 893,1635 165,1631 165,1663"/>
+        <Baseline points="165,1663 896,1667"/>
+        <TextEquiv conf="0.9943294868324742">
+          <Unicode>Postscheck-Konto: 49 965 Leipzig.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_92e440bb" >
+        <Coords points="165,1711 165,1732 781,1722 781,1706 774,1674 162,1677 165,1711"/>
+        <Baseline points="165,1711 781,1706"/>
+        <TextEquiv conf="0.9999993486063821">
+          <Unicode>Geschäftsjahr: Kalenderjahr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_6_1"  >
+      <Coords points="1450,336 2617,336 2617,1109 1450,1109"/>
+      <TextLine id="eSc_line_8130d568" >
+        <Coords points="2319,336 2296,336 2273,336 2250,336 2227,336 2204,336 2181,336 2158,334 2135,334 2113,334 2090,334 2067,334 2044,334 2021,334 1998,334 1975,334 1966,334 1911,336 1902,332 1883,332 1860,332 1838,332 1815,332 1792,332 1769,332 1746,332 1723,332 1700,332 1677,332 1659,329 1563,334 1524,329 1517,329 1494,329 1471,329 1450,329 1450,378 1448,405 2353,410 2358,382 2355,339 2319,336 2319,336"/>
+        <Baseline points="1450,378 2358,382"/>
+        <TextEquiv>
+          <Unicode>Hermann Herholz G. m. b. H.,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1abd925d" >
+        <Coords points="1450,455 1450,485 1514,474 1796,481 1925,483 1927,483 2420,469 2422,451 2417,412 2346,396 2344,396 2342,396 2339,396 2319,410 2252,398 2250,398 2248,398 2245,398 2245,400 2234,412 2092,412 2067,394 2064,394 2062,394 2060,394 2058,394 2055,394 2055,396 2037,412 1993,412 1925,412 1922,412 1904,396 1902,396 1899,396 1897,396 1819,412 1817,412 1796,396 1794,396 1792,396 1677,396 1675,396 1673,396 1670,396 1670,398 1654,412 1654,414 1615,414 1613,412 1558,396 1556,396 1553,396 1551,396 1549,396 1530,410 1517,398 1517,396 1514,396 1512,396 1457,396 1455,396 1453,396 1450,396 1450,398 1448,398 1450,455"/>
+        <Baseline points="1450,455 2422,451"/>
+        <TextEquiv conf="0.9999986849725246">
+          <Unicode>Berlin C 25, Alexanderstraße 21.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_60db69a7" >
+        <Coords points="1448,540 2553,545 2557,522 2555,490 2168,474 2165,474 2009,478 1821,485 1801,476 1794,471 1792,471 1789,471 1718,474 1487,483 1453,469 1450,515 1448,540"/>
+        <Baseline points="1450,515 2557,522"/>
+        <TextEquiv conf="0.9963201097413605">
+          <Unicode>Fernruf: 51 17 12. Drahtanschrift: herholz 51 17 12</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e621642e" >
+        <Coords points="1450,556 1448,575 2103,584 2108,561 2106,526 1450,524 1450,556"/>
+        <Baseline points="1450,556 2108,561"/>
+        <TextEquiv conf="0.9985314965248108">
+          <Unicode>Gründung: 1896; eingetr. 1908.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9bd6f101" >
+        <Coords points="1448,618 2608,630 2612,607 2610,575 1496,572 1453,559 1450,602 1448,618"/>
+        <Baseline points="1450,602 2612,607"/>
+        <TextEquiv conf="0.9997344141205152">
+          <Unicode>Fabrikationsprogramm: Handkolben-, Zentrifugal-,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c7d5e92f" >
+        <Coords points="1453,643 1450,671 2610,671 2612,648 2610,616 1453,604 1453,643"/>
+        <Baseline points="1453,643 2612,648"/>
+        <TextEquiv conf="0.9999999842553768">
+          <Unicode>selbstansaugende Kreisel-, Kraft-Kolbenpumpen u. Pum-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0e7c6d82" >
+        <Coords points="1453,685 1453,707 1695,707 1698,680 1691,652 1450,655 1453,685"/>
+        <Baseline points="1453,685 1698,680"/>
+        <TextEquiv conf="0.999999980131785">
+          <Unicode>penantriebe.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_849fa7ae" >
+        <Coords points="1453,726 1453,749 1925,751 1927,726 1925,689 1453,689 1453,726"/>
+        <Baseline points="1453,726 1927,726"/>
+        <TextEquiv conf="0.9997291564941406">
+          <Unicode>Kapital: RM 48 000.—.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9ea80e8e" >
+        <Coords points="1453,767 1450,792 2486,792 2488,776 2486,730 1453,730 1453,767"/>
+        <Baseline points="1453,767 2488,776"/>
+        <TextEquiv conf="0.9997100906169161">
+          <Unicode>Anteileigner: Eva, Luise, Jürgen Mania ((je ⅓).</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f1cb5d69" >
+        <Coords points="1453,811 1453,829 2420,831 2422,811 2422,781 1453,776 1453,811"/>
+        <Baseline points="1453,811 2422,811"/>
+        <TextEquiv conf="0.999955015127049">
+          <Unicode>Geschäftsführer: Luise Mania, Bruno Müller.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fd9d03ca" >
+        <Coords points="1453,850 1450,868 2362,875 2367,856 2365,824 1453,813 1453,850"/>
+        <Baseline points="1453,850 2367,856"/>
+        <TextEquiv conf="0.9999970139526739">
+          <Unicode>Prokuristen: Heinrich Jordan, Else Mania.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_18d68a4e" >
+        <Coords points="1453,893 1450,914 1599,930 1601,930 1709,918 1725,918 1893,918 1895,918 1909,930 1911,930 1913,930 1915,930 1982,918 1993,918 2000,921 2039,932 2041,932 2044,932 2046,932 2085,921 2087,921 2092,921 2184,932 2186,932 2537,923 2539,898 2537,861 1453,852 1453,893"/>
+        <Baseline points="1453,893 2539,898"/>
+        <TextEquiv conf="0.9999796621342922">
+          <Unicode>Bankverbindungen: Dresdner Bank, Giro-Zentrale,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9c55d2bb" >
+        <Coords points="1453,934 1453,957 1590,955 1590,934 1590,904 1453,900 1453,934"/>
+        <Baseline points="1453,934 1590,934"/>
+        <TextEquiv conf="1.0">
+          <Unicode>Berlin.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6c2d4ae2" >
+        <Coords points="1450,976 1448,996 2163,996 2165,980 2163,946 1450,939 1450,976"/>
+        <Baseline points="1450,976 2165,980"/>
+        <TextEquiv conf="0.9950217232108116">
+          <Unicode>Postscheck-Konto: 16 357 Berlin.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_352aaa1c" >
+        <Coords points="1450,1021 1450,1042 2074,1040 2076,1019 2069,989 1448,989 1450,1021"/>
+        <Baseline points="1450,1021 2076,1019"/>
+        <TextEquiv conf="0.9999999957425254">
+          <Unicode>Geschäftsjahr: Kalenderjahr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2ac77539" >
+        <Coords points="1448,1085 1448,1118 2207,1115 2207,1085 2207,1051 2129,1037 2126,1037 2019,1049 1922,1037 1920,1037 1918,1037 1915,1037 1899,1049 1702,1037 1700,1037 1549,1049 1537,1040 1537,1037 1535,1037 1533,1037 1530,1037 1448,1049 1448,1085"/>
+        <Baseline points="1448,1085 2207,1085"/>
+        <TextEquiv conf="0.999990701675415">
+          <Unicode>Anlagen: Fabrikations-Werkstätten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_4_1"  >
+      <Coords points="166,1840 1323,1840 1323,2483 166,2483"/>
+      <TextLine id="eSc_line_8ec335e3" >
+        <Coords points="162,1887 162,1908 1077,1910 1081,1883 1077,1844 964,1830 962,1830 960,1830 957,1830 957,1832 948,1839 932,1826 930,1826 928,1826 925,1826 923,1826 886,1842 811,1828 809,1828 806,1828 763,1842 749,1828 747,1828 744,1828 742,1828 740,1828 696,1842 660,1826 657,1826 655,1826 653,1826 616,1844 614,1844 570,1828 568,1828 566,1828 563,1828 506,1844 504,1844 501,1844 469,1828 467,1828 465,1828 462,1828 460,1828 440,1844 437,1846 407,1846 407,1844 391,1830 391,1828 389,1828 387,1828 385,1828 382,1828 323,1844 302,1828 300,1828 297,1828 183,1828 181,1828 178,1828 176,1828 160,1837 162,1887"/>
+        <Baseline points="162,1887 1081,1883"/>
+        <TextEquiv conf="0.9999414960543315">
+          <Unicode>Herfurth &amp; Co., Ingenieurbüro,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_290d9018" >
+        <Coords points="162,1961 162,1984 591,1981 591,1961 591,1922 527,1906 524,1906 522,1906 476,1919 469,1919 460,1917 417,1906 414,1906 412,1906 366,1915 348,1919 162,1913 162,1961"/>
+        <Baseline points="162,1961 591,1961"/>
+        <TextEquiv conf="1.0">
+          <Unicode>Braunschweig,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c0ca2b3b" >
+        <Coords points="162,2032 162,2050 1019,2048 1022,2025 1017,1986 946,1970 944,1970 877,1984 875,1984 873,1984 859,1970 859,1968 857,1968 854,1968 852,1968 850,1968 811,1981 804,1984 795,1981 733,1968 731,1968 728,1968 726,1968 726,1970 715,1981 708,1988 646,1988 639,1979 632,1974 632,1972 630,1972 627,1972 625,1972 623,1972 600,1979 579,1986 572,1979 566,1972 563,1972 561,1972 456,1970 453,1970 451,1970 449,1970 449,1972 442,1977 430,1988 407,1977 401,1974 398,1974 396,1974 394,1974 387,1977 362,1986 350,1977 348,1972 346,1972 343,1972 341,1972 339,1972 336,1972 336,1974 334,1977 320,1986 307,1974 304,1972 302,1972 300,1972 297,1972 295,1972 286,1974 256,1984 160,1974 162,2032"/>
+        <Baseline points="162,2032 1022,2025"/>
+        <TextEquiv conf="0.9999999957425254">
+          <Unicode>Friedrich-Wilhelm-Straße 12.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_63a7a750" >
+        <Coords points="167,2098 167,2126 1207,2112 1210,2091 1205,2062 165,2057 167,2098"/>
+        <Baseline points="167,2098 1210,2091"/>
+        <TextEquiv conf="0.9999350580302152">
+          <Unicode>Fernruf: 1479. Drahtanschrift: herfurth &amp; co</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7a24290d" >
+        <Coords points="169,2139 169,2162 524,2162 524,2139 524,2110 169,2105 169,2139"/>
+        <Baseline points="169,2139 524,2139"/>
+        <TextEquiv conf="0.99999627272288">
+          <Unicode>Gründung: 1932.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_993bf6a5" >
+        <Coords points="167,2183 167,2206 1322,2201 1324,2171 1317,2139 165,2149 167,2183"/>
+        <Baseline points="167,2183 1324,2171"/>
+        <TextEquiv conf="0.9999920034408569">
+          <Unicode>Fabrikationsprogramm: Lieferung u. Bau von maschi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_dd4b6ecd" >
+        <Coords points="167,2224 167,2249 1320,2240 1322,2220 1315,2190 165,2192 167,2224"/>
+        <Baseline points="167,2224 1322,2220"/>
+        <TextEquiv conf="0.9996411915411029">
+          <Unicode>nellen Anlagen u. Einrichtungen, speziell für die Futter-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_648e4346" >
+        <Coords points="169,2268 169,2286 896,2284 898,2263 893,2233 167,2233 169,2268"/>
+        <Baseline points="169,2268 898,2263"/>
+        <TextEquiv conf="0.9955648812982771">
+          <Unicode>mittelindustrie u. Transportanlagen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3ccf8b82" >
+        <Coords points="169,2309 169,2330 932,2339 935,2339 1109,2327 1306,2336 1308,2336 1310,2336 1313,2336 1313,2334 1322,2323 1322,2302 1315,2272 167,2272 169,2309"/>
+        <Baseline points="169,2309 1322,2302"/>
+        <TextEquiv conf="0.9999760300555127">
+          <Unicode>Bankverbindung: Deutsche Bank u. Disconto-Ges.,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f77e92e7" >
+        <Coords points="169,2348 169,2373 453,2371 453,2348 453,2320 169,2314 169,2348"/>
+        <Baseline points="169,2348 453,2348"/>
+        <TextEquiv conf="0.9728846137340252">
+          <Unicode>Braunschweig.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_929d2d8b" >
+        <Coords points="165,2394 165,2414 795,2414 795,2394 795,2359 767,2348 765,2348 763,2348 666,2359 664,2359 577,2348 575,2348 508,2359 499,2359 165,2357 165,2394"/>
+        <Baseline points="165,2394 795,2394"/>
+        <TextEquiv conf="0.9990352307047162">
+          <Unicode>Geschäftsjahr: Kalenderjahr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_70f34934" >
+        <Coords points="165,2460 165,2483 1320,2472 1320,2449 1313,2417 162,2417 165,2460"/>
+        <Baseline points="165,2460 1320,2449"/>
+        <TextEquiv conf="0.9999375538184092">
+          <Unicode>Anlagen: Konstruktionsbüro f. technische Entwürfe. X</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_7_1"  >
+      <Coords points="1453,1195 2007,1195 2007,1302 1453,1302"/>
+      <TextLine id="eSc_line_18f5d919" >
+        <Coords points="1450,1230 1450,1257 1693,1250 1693,1230 1693,1191 1450,1184 1450,1230"/>
+        <Baseline points="1450,1230 1693,1230"/>
+        <TextEquiv conf="0.9879642393853929">
+          <Unicode>A. Hering</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_44622bf6" >
+        <Coords points="1450,1276 1448,1303 2014,1301 2016,1280 2016,1244 1450,1239 1450,1276"/>
+        <Baseline points="1450,1276 2016,1280"/>
+        <TextEquiv conf="0.9999999652306238">
+          <Unicode>siehe Aktiengesellschaft</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_8_1"  >
+      <Coords points="1448,1395 2619,1395 2619,2120 1448,2120"/>
+      <TextLine id="eSc_line_079ff68b" >
+        <Coords points="1450,1438 1448,1464 1863,1464 1865,1443 1865,1399 1450,1383 1450,1438"/>
+        <Baseline points="1450,1438 1865,1443"/>
+        <TextEquiv conf="0.999788170059522">
+          <Unicode>Franz Hering</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_350fe4e5" >
+        <Coords points="1453,1512 1450,1535 2266,1535 2268,1516 2268,1475 2211,1461 2209,1461 2207,1461 2174,1473 2174,1475 1973,1475 1970,1470 1961,1464 1961,1461 1959,1461 1957,1461 1954,1461 1453,1466 1453,1512"/>
+        <Baseline points="1453,1512 2268,1516"/>
+        <TextEquiv conf="0.9999624261489282">
+          <Unicode>Jenaer Apparatebauanstalt,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_aa0c5524" >
+        <Coords points="1453,1580 1450,1603 2282,1615 2287,1585 2287,1546 2250,1530 2248,1530 2103,1530 2101,1530 2099,1530 2097,1530 2097,1532 2085,1544 2083,1546 2005,1546 2003,1541 1991,1532 1991,1530 1989,1530 1986,1530 1984,1530 1982,1530 1957,1541 1950,1544 1936,1541 1895,1530 1893,1530 1890,1530 1849,1539 1840,1541 1838,1539 1826,1530 1826,1528 1824,1528 1821,1528 1819,1528 1769,1539 1750,1544 1691,1544 1684,1537 1675,1528 1673,1528 1670,1528 1668,1528 1666,1528 1663,1528 1654,1537 1645,1541 1453,1535 1453,1580"/>
+        <Baseline points="1453,1580 2287,1585"/>
+        <TextEquiv conf="0.9999999449803278">
+          <Unicode>Jena, Am Marktplatz 13/15.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ef6e621e" >
+        <Coords points="2394,1619 2392,1617 1455,1608 1455,1647 1453,1672 2410,1672 2413,1651 2410,1633 2394,1619"/>
+        <Baseline points="1455,1647 2413,1651"/>
+        <TextEquiv conf="0.9999936347783998">
+          <Unicode>Fernruf: 2303. Drahtanschrift: franz hering</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9645a8d4" >
+        <Coords points="1455,1688 1453,1709 2101,1713 2106,1695 2103,1663 1455,1656 1455,1688"/>
+        <Baseline points="1455,1688 2106,1695"/>
+        <TextEquiv conf="0.999993254741033">
+          <Unicode>Gründung: 1834; eingetr. 1867.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c194f6b3" >
+        <Coords points="2596,1706 2594,1704 1450,1697 1450,1734 1450,1761 2614,1757 2614,1734 2614,1709 2596,1706"/>
+        <Baseline points="1450,1734 2614,1734"/>
+        <TextEquiv conf="0.9935915794288903">
+          <Unicode>Fabrikationsprogramm: Dampf- u. Destillier-, Sterilisier-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_86ae6af2" >
+        <Coords points="1453,1773 1450,1793 1526,1807 1528,1807 1728,1798 1741,1809 1744,1809 1746,1809 1748,1809 2614,1803 2617,1782 2614,1752 1453,1743 1453,1773"/>
+        <Baseline points="1453,1773 2617,1782"/>
+        <TextEquiv conf="0.9983347762714733">
+          <Unicode>u. Extrahierapparate (für Apotheken, pharmaz. Laborato-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2625959d" >
+        <Coords points="1459,1814 1457,1835 1815,1837 1819,1816 1817,1782 1459,1782 1459,1814"/>
+        <Baseline points="1459,1814 1819,1816"/>
+        <TextEquiv conf="1.0">
+          <Unicode>rien u. Fabriken).</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1ed60024" >
+        <Coords points="1453,1855 1450,1874 2188,1883 2193,1864 2190,1823 1453,1821 1453,1855"/>
+        <Baseline points="1453,1855 2193,1864"/>
+        <TextEquiv conf="0.9952554930658901">
+          <Unicode>Inhaber: Franz Hering sen. u. jun.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d41d554e" >
+        <Coords points="1453,1899 1450,1919 2610,1938 2614,1908 2612,1876 1453,1862 1453,1899"/>
+        <Baseline points="1453,1899 2614,1908"/>
+        <TextEquiv conf="0.9999989604949951">
+          <Unicode>Bankverbindungen: Thüringer Staatsbank, Stadtbank,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_af9e856d" >
+        <Coords points="1453,1940 1450,1956 1565,1961 1569,1945 1567,1913 1453,1903 1453,1940"/>
+        <Baseline points="1453,1940 1569,1945"/>
+        <TextEquiv conf="1.0">
+          <Unicode>Jena.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2b9b8bb2" >
+        <Coords points="1453,1984 1450,2007 2142,2007 2145,1990 2142,1954 1453,1947 1453,1984"/>
+        <Baseline points="1453,1984 2145,1990"/>
+        <TextEquiv conf="0.9999977747599283">
+          <Unicode>Postscheck-Konto: 8856 Erfurt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_90aea2b5" >
+        <Coords points="1453,2029 1453,2052 2076,2050 2078,2027 2071,1997 1450,1997 1453,2029"/>
+        <Baseline points="1453,2029 2078,2027"/>
+        <TextEquiv conf="0.9999970751149314">
+          <Unicode>Geschäftsjahr: Kalenderjahr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7b6e69a9" >
+        <Coords points="1450,2091 1448,2121 2202,2116 2204,2096 2202,2057 1450,2055 1450,2091"/>
+        <Baseline points="1450,2091 2204,2096"/>
+        <TextEquiv conf="0.9875389427849741">
+          <Unicode>Anlagen: Apparatebau-Werkstätten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_1_1"  >
+      <Coords points="2095,184 2613,184 2613,244 2095,244"/>
+      <TextLine id="eSc_line_3a78edd5" >
+        <Coords points="2594,192 2580,180 2523,174 2502,174 2479,174 2463,174 2452,183 2429,174 2410,174 2388,174 2372,174 2342,183 2330,185 2310,183 2248,174 2227,174 2204,174 2181,174 2158,174 2135,174 2113,174 2090,194 2092,224 2092,242 2156,258 2158,258 2161,258 2163,258 2163,256 2172,247 2202,258 2204,258 2207,258 2268,245 2271,245 2273,245 2376,258 2378,258 2614,245 2614,219 2610,210 2594,192"/>
+        <Baseline points="2092,224 2614,219"/>
+        <TextEquiv>
+          <Unicode>Herbst — Herkules</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_5_1"  >
+      <Coords points="166,2590 1323,2590 1323,3660 166,3660"/>
+      <TextLine id="eSc_line_8a09ccda" >
+        <Coords points="165,2637 165,2655 744,2650 747,2632 742,2593 676,2593 673,2591 662,2579 662,2577 660,2577 657,2577 655,2577 600,2588 591,2591 586,2588 572,2577 572,2575 570,2575 568,2575 566,2575 506,2586 504,2586 501,2586 467,2575 465,2575 462,2575 460,2575 458,2575 446,2584 435,2593 405,2584 389,2579 387,2579 385,2579 382,2579 366,2584 325,2593 304,2582 295,2577 293,2577 291,2577 288,2577 277,2582 249,2593 236,2579 233,2579 233,2577 231,2577 229,2577 226,2577 162,2577 165,2637"/>
+        <Baseline points="165,2637 747,2632"/>
+        <TextEquiv>
+          <Unicode>Herfurth &amp; Heyden</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a10831cb" >
+        <Coords points="165,2710 165,2731 1187,2726 1189,2705 1187,2666 1134,2646 1132,2646 1038,2646 1035,2646 1033,2646 996,2664 996,2666 914,2666 914,2664 893,2648 893,2646 891,2646 889,2646 886,2646 884,2646 841,2657 822,2646 820,2646 818,2646 815,2646 813,2646 786,2657 735,2650 733,2650 731,2650 682,2664 671,2666 669,2664 650,2648 648,2648 646,2648 643,2648 575,2664 556,2669 446,2669 440,2662 419,2648 417,2648 414,2648 412,2648 410,2648 407,2648 387,2662 380,2666 375,2662 352,2648 350,2648 348,2648 277,2648 275,2648 272,2648 270,2648 252,2662 245,2666 231,2662 190,2648 187,2648 185,2648 183,2648 162,2657 165,2710"/>
+        <Baseline points="165,2710 1189,2705"/>
+        <TextEquiv conf="0.9978208349031561">
+          <Unicode>Drahtheftmaschinenfabrik m. b. H.,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_243d99cf" >
+        <Coords points="160,2799 373,2811 375,2811 481,2799 499,2799 515,2799 605,2813 607,2813 1045,2799 1047,2781 1047,2740 1015,2721 1012,2721 951,2721 948,2721 946,2721 944,2721 944,2724 930,2737 928,2740 836,2740 829,2735 799,2721 797,2721 795,2721 733,2733 701,2737 664,2731 605,2719 602,2719 600,2719 575,2728 556,2735 515,2726 474,2719 472,2719 469,2719 456,2726 440,2735 426,2726 419,2719 417,2719 414,2719 412,2719 410,2719 407,2719 407,2721 403,2724 389,2737 206,2737 165,2719 162,2776 160,2799"/>
+        <Baseline points="162,2776 1047,2781"/>
+        <TextEquiv conf="0.9996133292874982">
+          <Unicode>Leipzig 0 27, Eichstädtstr. 17.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_33ba9444" >
+        <Coords points="165,2845 165,2873 1136,2863 1136,2845 1136,2808 165,2804 165,2845"/>
+        <Baseline points="165,2845 1136,2845"/>
+        <TextEquiv conf="0.989512641321529">
+          <Unicode>Fernruf: 62 361. Drahtanschrift: drahthefter</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ca9ac2d8" >
+        <Coords points="167,2886 165,2905 513,2916 517,2891 515,2852 167,2852 167,2886"/>
+        <Baseline points="167,2886 517,2891"/>
+        <TextEquiv conf="0.999764891465505">
+          <Unicode>Gründung: 1904.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d69caff0" >
+        <Coords points="167,2930 167,2950 1324,2941 1324,2921 1320,2893 165,2893 167,2930"/>
+        <Baseline points="167,2930 1324,2921"/>
+        <TextEquiv conf="0.9999867058717288">
+          <Unicode>Fabrikationsprogramm: Drahtheftmaschinen mit selbst-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_bd2969b8" >
+        <Coords points="167,2971 167,2999 1320,2996 1322,2966 1315,2939 165,2939 167,2971"/>
+        <Baseline points="167,2971 1322,2966"/>
+        <TextEquiv conf="0.9999089573438351">
+          <Unicode>tätiger Klammerbildung für das graphische Gewerbe u.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_053b57e9" >
+        <Coords points="167,3010 165,3033 689,3035 694,3017 692,2983 167,2980 167,3010"/>
+        <Baseline points="167,3010 694,3017"/>
+        <TextEquiv conf="0.9985468292236328">
+          <Unicode>die Verpackungsindustrie.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3d75dce7" >
+        <Coords points="169,3058 169,3076 618,3081 623,3054 618,3024 167,3024 169,3058"/>
+        <Baseline points="169,3058 623,3054"/>
+        <TextEquiv conf="0.9887810587882996">
+          <Unicode>Kapital: RM 48 000.—</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_73c33ec1" >
+        <Coords points="169,3099 169,3120 1326,3120 1326,3090 1320,3060 167,3065 169,3099"/>
+        <Baseline points="169,3099 1326,3090"/>
+        <TextEquiv>
+          <Unicode>Anteileigner: Bruno Herfurth, Leipzig (55%), Richard</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c88d5ae9" >
+        <Coords points="169,3138 169,3164 1317,3157 1320,3134 1315,3104 167,3104 169,3138"/>
+        <Baseline points="169,3138 1320,3134"/>
+        <TextEquiv>
+          <Unicode>Hentschel, Leipzig 30 %); Minna verw. Lieberoth, Dres-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_002d203c" >
+        <Coords points="167,3177 165,3198 916,3202 921,3182 919,3152 167,3147 167,3177"/>
+        <Baseline points="167,3177 921,3182"/>
+        <TextEquiv>
+          <Unicode>den (10%), Hans Kitze, Leipzig (5%).</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_09266649" >
+        <Coords points="167,3225 167,3246 1283,3241 1285,3221 1278,3191 165,3193 167,3225"/>
+        <Baseline points="167,3225 1285,3221"/>
+        <TextEquiv>
+          <Unicode>Geschäftsführer: Bruno Herfurth, Richard Hentschel.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_4372114b" >
+        <Coords points="169,3267 169,3290 1010,3290 1010,3267 1010,3237 169,3230 169,3267"/>
+        <Baseline points="169,3267 1010,3267"/>
+        <TextEquiv>
+          <Unicode>Prokuristen: Hans Kitze, Erich Buresch.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5031087a" >
+        <Coords points="167,3308 167,3335 1322,3335 1324,3303 1317,3271 165,3273 167,3308"/>
+        <Baseline points="167,3308 1324,3303"/>
+        <TextEquiv>
+          <Unicode>Bankverbindungen: Dresdner Bank, Commerz- u. Pri-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ade32f3f" >
+        <Coords points="171,3349 169,3365 650,3372 655,3354 653,3322 171,3315 171,3349"/>
+        <Baseline points="171,3349 655,3354"/>
+        <TextEquiv>
+          <Unicode>vat-Bank A.-G., Leipzig.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d394078c" >
+        <Coords points="281,3351 258,3351 236,3351 213,3351 190,3351 187,3349 167,3349 167,3390 165,3411 898,3416 902,3397 900,3363 288,3351 281,3351"/>
+        <Baseline points="167,3390 902,3397"/>
+        <TextEquiv>
+          <Unicode>Postscheck-Konto: 50 610 Leipzig.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6f1025c6" >
+        <Coords points="165,3438 165,3461 756,3461 756,3438 754,3406 165,3406 165,3438"/>
+        <Baseline points="165,3438 756,3438"/>
+        <TextEquiv>
+          <Unicode>Geschäftsjahr: 1./1.—31./12.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8543d3c9" >
+        <Coords points="167,3498 165,3519 1320,3523 1324,3503 1324,3471 1299,3457 1297,3457 1294,3457 971,3466 864,3468 854,3464 838,3457 836,3457 834,3457 831,3457 809,3464 790,3468 751,3464 687,3454 685,3454 682,3454 664,3461 655,3466 167,3457 167,3498"/>
+        <Baseline points="167,3498 1324,3503"/>
+        <TextEquiv>
+          <Unicode>Anlagen: Mechanische Werkstätten mit den erforder-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5aea14c5" >
+        <Coords points="167,3539 165,3562 618,3569 623,3548 621,3519 167,3503 167,3539"/>
+        <Baseline points="167,3539 623,3548"/>
+        <TextEquiv>
+          <Unicode>lichen Nebenbetrieben.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6939c664" >
+        <Coords points="167,3587 167,3613 1326,3613 1326,3587 1326,3551 167,3551 167,3587"/>
+        <Baseline points="167,3587 1326,3587"/>
+        <TextEquiv>
+          <Unicode>Firma gehört folgender Interessengemeinschaft an:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_028f87df" >
+        <Coords points="167,3626 165,3654 1072,3661 1077,3633 1074,3603 167,3592 167,3626"/>
+        <Baseline points="167,3626 1077,3633"/>
+        <TextEquiv>
+          <Unicode>Papierverarbeitungsmaschinen-Verband e. V.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_9_1"  >
+      <Coords points="1454,2214 2617,2214 2617,2763 1454,2763"/>
+      <TextLine id="eSc_line_6faf8de4" >
+        <Coords points="1450,2256 1448,2284 2291,2284 2294,2263 2294,2220 2234,2204 2232,2204 2229,2204 2227,2204 2200,2220 2197,2220 2186,2217 2113,2206 2110,2206 2055,2215 2021,2220 2012,2213 1998,2204 1996,2204 1993,2204 1991,2204 1922,2210 1865,2217 1856,2208 1849,2204 1849,2201 1847,2201 1844,2201 1801,2201 1799,2201 1796,2201 1794,2201 1794,2204 1789,2208 1778,2220 1732,2220 1693,2204 1677,2199 1675,2199 1558,2199 1556,2199 1553,2199 1551,2199 1551,2201 1535,2213 1450,2199 1450,2256"/>
+        <Baseline points="1450,2256 2294,2263"/>
+        <TextEquiv>
+          <Unicode>H. Herion, Maschinenfabrik,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_66f65171" >
+        <Coords points="1453,2323 1450,2343 1645,2362 1647,2362 1760,2350 1785,2362 1787,2362 1789,2362 1968,2355 2032,2366 2035,2366 2612,2357 2614,2336 2614,2293 2589,2279 2587,2279 2585,2279 2582,2279 2468,2293 2461,2293 2452,2293 2289,2277 2287,2277 2284,2277 2250,2291 2245,2291 2236,2291 2174,2279 2172,2279 2170,2279 2140,2288 2126,2275 2124,2275 2122,2275 2119,2275 2055,2286 2046,2288 2039,2286 2005,2275 2003,2275 2000,2275 1929,2286 1918,2286 1904,2284 1817,2270 1815,2270 1812,2270 1783,2284 1780,2284 1750,2281 1604,2272 1601,2272 1599,2272 1597,2272 1585,2279 1585,2281 1583,2279 1567,2268 1565,2268 1563,2268 1560,2268 1453,2277 1453,2323"/>
+        <Baseline points="1453,2323 2614,2336"/>
+        <TextEquiv>
+          <Unicode>Oehringen (Württ.), Meisterhausstr. 13.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5560615c" >
+        <Coords points="1453,2396 1450,2414 2255,2419 2259,2403 2257,2369 1453,2357 1453,2396"/>
+        <Baseline points="1453,2396 2259,2403"/>
+        <TextEquiv>
+          <Unicode>Fernruf: 364. Drahtanschrift: herion</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_4fbadcb3" >
+        <Coords points="1457,2435 1455,2460 2612,2462 2617,2444 2614,2412 1457,2405 1457,2435"/>
+        <Baseline points="1457,2435 2617,2444"/>
+        <TextEquiv>
+          <Unicode>Fabrikationsprogramm: Automatische Sägenschärf-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c93c3143" >
+        <Coords points="1455,2481 1453,2501 2610,2506 2614,2485 2612,2456 1455,2451 1455,2481"/>
+        <Baseline points="1455,2481 2614,2485"/>
+        <TextEquiv>
+          <Unicode>maschinen für Gatter-, Kreis- u. Bandsägen; Sägen-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5ae3e115" >
+        <Coords points="1453,2520 1450,2538 2610,2554 2614,2529 2612,2490 1453,2485 1453,2520"/>
+        <Baseline points="1453,2520 2614,2529"/>
+        <TextEquiv>
+          <Unicode>stanzen, Hobelmesser-Schleifmaschinen. Ketten-Ablang-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b14b48f5" >
+        <Coords points="1462,2566 1459,2584 1883,2598 1886,2598 2575,2588 2578,2568 2575,2538 1462,2529 1462,2566"/>
+        <Baseline points="1462,2566 2578,2568"/>
+        <TextEquiv>
+          <Unicode>sägen für Zimmereien, Kettenfräs- u. Bohrmaschinen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2c5dbd6b" >
+        <Coords points="1455,2607 1455,2630 1881,2630 1881,2607 1881,2577 1455,2570 1455,2607"/>
+        <Baseline points="1455,2607 1881,2607"/>
+        <TextEquiv>
+          <Unicode>Inhaber: H. Herion.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f44d8e8f" >
+        <Coords points="1455,2646 1453,2669 1501,2682 1503,2682 1505,2682 1583,2671 1590,2671 1606,2671 1796,2685 1799,2685 1801,2685 1828,2673 1835,2671 1842,2673 1863,2685 1865,2685 1867,2685 1870,2685 1895,2673 1904,2671 2003,2676 2140,2682 2142,2682 2145,2682 2147,2682 2154,2678 2161,2673 2195,2678 2282,2689 2284,2689 2523,2680 2525,2655 2523,2623 1455,2614 1455,2646"/>
+        <Baseline points="1455,2646 2525,2655"/>
+        <TextEquiv>
+          <Unicode>Bankverbindung: Spar- u. Creditbank, Oehringen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f121c37f" >
+        <Coords points="1455,2692 1453,2717 2188,2724 2193,2698 2190,2666 1455,2653 1455,2692"/>
+        <Baseline points="1455,2692 2193,2698"/>
+        <TextEquiv>
+          <Unicode>Postscheck-Konto: 9552 Stuttgart.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_33a06dbd" >
+        <Coords points="1453,2740 1453,2760 2071,2756 2074,2735 2067,2703 1450,2705 1453,2740"/>
+        <Baseline points="1453,2740 2074,2735"/>
+        <TextEquiv>
+          <Unicode>Geschäftsjahr: Kalenderjahr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_10_1"  >
+      <Coords points="1453,2847 2062,2847 2062,2949 1453,2949"/>
+      <TextLine id="eSc_line_4534f8ff" >
+        <Coords points="1450,2882 1450,2900 2062,2902 2064,2877 2060,2840 1448,2834 1450,2882"/>
+        <Baseline points="1450,2882 2064,2877"/>
+        <TextEquiv>
+          <Unicode>Herkules, Maschinenfabrik</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_186b81ae" >
+        <Coords points="1453,2930 1453,2955 1913,2950 1915,2928 1911,2898 1478,2886 1475,2886 1473,2886 1450,2895 1453,2930"/>
+        <Baseline points="1453,2930 1915,2928"/>
+        <TextEquiv>
+          <Unicode>siehe Franz Thoma</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_11_1"  >
+      <Coords points="1451,3046 2616,3046 2616,3655 1451,3655"/>
+      <TextLine id="eSc_line_ab0a76c3" >
+        <Coords points="2207,3035 2184,3028 2087,3028 2085,3028 2083,3028 2080,3028 2060,3044 2055,3047 1895,3047 1886,3040 1865,3031 1863,3031 1860,3031 1858,3031 1833,3040 1828,3042 1821,3040 1789,3026 1787,3026 1718,3026 1716,3026 1714,3026 1711,3026 1695,3038 1686,3042 1450,3035 1450,3088 1448,3113 2241,3109 2243,3093 2243,3047 2225,3038 2207,3035"/>
+        <Baseline points="1450,3088 2243,3093"/>
+        <TextEquiv>
+          <Unicode>Herkules-Werk G. m. b. H.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9113484f" >
+        <Coords points="1453,3157 1450,3180 2080,3182 2085,3164 2083,3125 1959,3106 1957,3106 1954,3106 1925,3122 1922,3122 1920,3122 1876,3104 1874,3104 1872,3104 1803,3120 1801,3120 1799,3120 1663,3102 1661,3102 1659,3102 1622,3118 1453,3118 1453,3157"/>
+        <Baseline points="1453,3157 2085,3164"/>
+        <TextEquiv>
+          <Unicode>vorm. Wilh. Momma,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1588efd8" >
+        <Coords points="2438,3193 2415,3186 2394,3180 2229,3193 2207,3196 2135,3196 2129,3191 2108,3177 2106,3177 2103,3177 2035,3177 2032,3177 2030,3177 2028,3177 2012,3191 2009,3191 1993,3189 1886,3177 1883,3177 1881,3177 1847,3189 1838,3191 1835,3189 1824,3177 1821,3177 1819,3177 1817,3177 1815,3177 1812,3177 1799,3186 1794,3191 1787,3186 1771,3175 1769,3175 1766,3175 1764,3175 1762,3175 1760,3175 1741,3186 1737,3189 1721,3186 1659,3175 1601,3175 1599,3175 1597,3175 1595,3175 1595,3177 1585,3184 1581,3189 1453,3184 1453,3230 1450,3257 1464,3267 1466,3267 1469,3267 1471,3267 1693,3257 1766,3255 1776,3260 1794,3269 1796,3269 1799,3269 1980,3262 2154,3257 2172,3267 2177,3271 2179,3271 2181,3271 2184,3271 2232,3269 2367,3257 2438,3271 2443,3237 2443,3193 2438,3193 2438,3193"/>
+        <Baseline points="1453,3230 2443,3237"/>
+        <TextEquiv>
+          <Unicode>Maschinenfabrik u. Eisengießerei,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e92a53e9" >
+        <Coords points="1455,3303 1453,3322 1707,3326 1711,3308 1709,3269 1640,3269 1636,3264 1624,3253 1624,3251 1622,3251 1620,3251 1618,3251 1615,3251 1595,3260 1583,3267 1455,3253 1455,3303"/>
+        <Baseline points="1455,3303 1711,3308"/>
+        <TextEquiv>
+          <Unicode>Wetzlar.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6c209a90" >
+        <Coords points="1450,3374 1450,3400 2431,3393 2431,3374 2429,3326 2362,3340 2314,3326 2312,3326 2310,3326 2241,3340 2225,3328 2223,3328 2220,3328 2218,3328 2135,3340 2083,3326 2080,3326 2078,3326 2076,3326 2074,3326 2055,3340 1911,3328 1909,3328 1762,3340 1695,3326 1693,3326 1549,3340 1450,3326 1450,3374"/>
+        <Baseline points="1450,3374 2431,3374"/>
+        <TextEquiv>
+          <Unicode>Fernruf: 2154. Drahtanschrift: herkuleswerk</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8da5ae6d" >
+        <Coords points="1453,3413 1450,3429 2271,3434 2275,3418 2273,3386 1453,3381 1453,3413"/>
+        <Baseline points="1453,3413 2275,3418"/>
+        <TextEquiv>
+          <Unicode>Gründung: 1877; seit 1917 G. m. b. H.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_274ee72f" >
+        <Coords points="1453,3454 1450,3482 2612,3482 2614,3461 2603,3429 1453,3422 1453,3454"/>
+        <Baseline points="1453,3454 2614,3461"/>
+        <TextEquiv>
+          <Unicode>Fabrikationsprogramm: Profileisenbiege- u. schwerere</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_542223db" >
+        <Coords points="1453,3496 1450,3521 2310,3523 2314,3503 2312,3466 1453,3464 1453,3496"/>
+        <Baseline points="1453,3496 2314,3503"/>
+        <TextEquiv>
+          <Unicode>Blechbearbeitungsmaschinen. Kundenguß.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f395a6c8" >
+        <Coords points="1453,3546 1453,3571 1934,3564 1936,3542 1931,3509 1450,3509 1453,3546"/>
+        <Baseline points="1453,3546 1936,3542"/>
+        <TextEquiv>
+          <Unicode>Kapital: RM 105 000.—</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_afc3bc9e" >
+        <Coords points="1934,3544 1911,3544 1888,3544 1865,3544 1842,3544 1835,3544 1453,3555 1455,3587 1455,3608 2610,3613 2614,3581 2610,3551 1934,3542 1934,3544"/>
+        <Baseline points="1455,3587 2614,3581"/>
+        <TextEquiv>
+          <Unicode>Anteileigner: Frau Wwe. Otto Coers sen., Otto Coers</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f601b836" >
+        <Coords points="1450,3629 1450,3679 1553,3679 1553,3677 1556,3677 1558,3677 1574,3663 1608,3677 1611,3677 1613,3677 1716,3663 1746,3674 1748,3674 1750,3674 1840,3663 1858,3677 1860,3677 1863,3677 1865,3677 1867,3677 1936,3663 1975,3677 1980,3629 1980,3599 1450,3597 1450,3629"/>
+        <Baseline points="1450,3629 1980,3629"/>
+        <TextEquiv>
+          <Unicode>jun., C. Momma, Wetzlar.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_12_1"  >
+      <Coords points="170,3809 233,3809 233,3852 170,3852"/>
+      <TextLine id="eSc_line_2ee464d0" >
+        <Coords points="210,3803 199,3798 181,3800 165,3821 167,3833 167,3855 236,3853 236,3828 229,3810 210,3803"/>
+        <Baseline points="167,3833 236,3828"/>
+        <TextEquiv conf="1.0">
+          <Unicode>16*</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_13_1"  >
+      <Coords points="2513,3786 2616,3786 2616,3847 2513,3847"/>
+      <TextLine id="eSc_line_221021f6" >
+        <Coords points="2601,3778 2511,3778 2504,3782 2504,3828 2504,3862 2619,3865 2621,3828 2614,3796 2601,3778"/>
+        <Baseline points="2504,3828 2621,3828"/>
+        <TextEquiv conf="1.0">
+          <Unicode>243</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

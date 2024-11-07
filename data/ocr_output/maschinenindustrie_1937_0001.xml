@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+	<Creator>escriptorium</Creator>
+	<Created>2024-11-07T08:34:57.005685+00:00</Created>
+        <LastChange>2024-11-07T08:34:57.005711+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="maschinenindustrie_1937_0001.jpg" imageWidth="3012" imageHeight="4176">
+    <TextRegion id="eSc_dummyblock_">
+      <Coords points="0,0 0,0"/>
+      <TextLine id="eSc_line_f8555c3c" >
+        <Coords points="1677,37 1689,60 1710,92 1721,88 1700,53 1689,37 1677,37"/>
+        <Baseline points="1689,60 1700,53"/>
+        <TextEquiv conf="0.8737558126449585">
+          <Unicode>.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

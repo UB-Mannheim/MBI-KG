@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+	<Creator>escriptorium</Creator>
+	<Created>2024-11-07T08:35:07.167859+00:00</Created>
+        <LastChange>2024-11-07T08:35:07.167881+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="maschinenindustrie_1937_0058.jpg" imageWidth="2796" imageHeight="4124">
+    <TextRegion id="r_2_1"  >
+      <Coords points="32,341 1185,341 1185,915 32,915"/>
+      <TextLine id="eSc_line_172a68f1" >
+        <Coords points="341,345 304,339 304,339 281,341 258,341 236,343 213,343 190,345 167,348 144,348 121,350 98,350 75,352 52,355 29,355 29,391 29,423 96,412 194,416 327,423 330,423 332,423 334,423 350,412 350,391 350,350 341,345"/>
+        <Baseline points="29,391 350,391"/>
+        <TextEquiv conf="0.9999739852818575">
+          <Unicode>C. A. Beug,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_96912d4e" >
+        <Coords points="923,400 905,398 898,398 877,398 866,398 850,412 847,412 836,412 708,398 705,398 703,398 701,398 682,412 680,412 666,412 511,400 508,400 446,412 423,416 412,412 389,403 387,403 385,403 382,403 355,412 341,416 323,412 284,403 281,403 279,403 277,403 252,412 242,416 238,412 229,405 226,405 224,405 222,405 220,405 201,412 185,419 29,414 32,465 32,488 1061,481 1063,453 1058,412 925,400 923,400"/>
+        <Baseline points="32,465 1063,453"/>
+        <TextEquiv conf="0.9898519726360545">
+          <Unicode>Eisengießerei und Maschinenfabrik,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7e704f99" >
+        <Coords points="34,536 34,556 1079,542 1079,526 1077,488 1038,471 1035,471 1033,471 1031,471 1001,488 969,488 797,488 795,485 781,474 781,471 779,471 776,471 774,471 772,471 724,485 717,488 710,485 662,471 660,471 657,471 513,485 506,485 501,485 449,474 446,474 444,474 442,474 428,485 421,490 410,485 382,474 380,474 378,474 375,474 336,485 318,490 300,485 270,476 268,476 265,476 263,476 261,476 261,478 254,485 245,492 178,492 169,485 160,476 158,476 155,476 153,476 32,483 34,536"/>
+        <Baseline points="34,536 1079,526"/>
+        <TextEquiv conf="0.999999383517674">
+          <Unicode>Stralsund, Greifswalder Chaussee 5.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_67bd51a1" >
+        <Coords points="34,602 34,623 990,623 992,593 987,559 270,554 268,554 32,565 34,602"/>
+        <Baseline points="34,602 992,593"/>
+        <TextEquiv conf="0.9975653730687641">
+          <Unicode>Fernruf: 2555/2556. Drahtanschrift: cabeug</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1c92e1ad" >
+        <Coords points="36,643 36,662 385,657 387,636 380,607 34,611 36,643"/>
+        <Baseline points="36,643 387,636"/>
+        <TextEquiv conf="0.9999573906262715">
+          <Unicode>Gründung: 1843.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2cc8a070" >
+        <Coords points="36,687 36,705 1187,689 1187,673 1182,641 1003,630 1001,630 948,641 944,641 935,641 802,632 799,632 797,632 795,632 781,643 779,646 34,646 36,687"/>
+        <Baseline points="36,687 1187,673"/>
+        <TextEquiv conf="0.9999951028823852">
+          <Unicode>Fabrikationsprogramm: Geräte für die landw. Boden-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1ff746e6" >
+        <Coords points="36,726 36,749 1182,742 1184,717 1177,685 34,694 36,726"/>
+        <Baseline points="36,726 1184,717"/>
+        <TextEquiv conf="0.9999789172952825">
+          <Unicode>bearbeitung; Strohpressen, Förderanlagen; Maschinen für</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_64c1a3d8" >
+        <Coords points="36,769 36,788 433,785 435,762 430,733 34,733 36,769"/>
+        <Baseline points="36,769 435,762"/>
+        <TextEquiv conf="0.9869145035743714">
+          <Unicode>die Futterbereitung.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_aef278d8" >
+        <Coords points="36,813 36,833 1182,831 1184,804 1180,772 948,760 946,760 891,772 889,772 882,772 687,762 685,762 34,776 36,813"/>
+        <Baseline points="36,813 1184,804"/>
+        <TextEquiv conf="0.9998814981916676">
+          <Unicode>Bankverbindungen: Pommersche Bank, Reichsbank,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_53b3fafb" >
+        <Coords points="36,852 36,877 224,877 226,847 220,817 34,817 36,852"/>
+        <Baseline points="36,852 226,847"/>
+        <TextEquiv conf="0.9999884366989136">
+          <Unicode>Stralsund.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d2609926" >
+        <Coords points="34,895 34,916 712,909 712,888 705,854 32,859 34,895"/>
+        <Baseline points="34,895 712,888"/>
+        <TextEquiv conf="0.9968194286028544">
+          <Unicode>Postscheck-Konto: 4356 Berlin.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_3_1"  >
+      <Coords points="35,1006 1191,1006 1191,1543 35,1543"/>
+      <TextLine id="eSc_line_b1e2e2f2" >
+        <Coords points="34,1060 34,1074 213,1088 215,1088 217,1088 220,1088 245,1074 850,1081 852,1081 854,1081 898,1067 1008,1079 1010,1079 1012,1079 1070,1063 1070,1049 1067,1008 1040,994 1038,994 1035,994 1033,994 1031,994 1010,1008 996,1008 873,996 870,996 868,996 866,996 866,998 864,998 857,1008 854,1012 797,1012 790,1008 779,996 776,996 774,996 772,996 696,1005 650,1012 625,1005 598,998 595,998 593,998 524,1005 442,1014 346,1005 293,1001 291,1001 288,1001 272,1005 226,1017 32,1005 34,1060"/>
+        <Baseline points="34,1060 1070,1049"/>
+        <TextEquiv conf="0.9999878946691751">
+          <Unicode>Beuma Bornaer Eisengießerei- und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5425f342" >
+        <Coords points="36,1127 36,1147 967,1143 967,1127 967,1085 900,1085 900,1083 886,1072 886,1069 884,1069 882,1069 880,1069 877,1069 841,1083 804,1069 802,1069 799,1069 797,1069 749,1083 726,1069 724,1069 721,1069 719,1069 717,1069 678,1083 676,1083 653,1069 650,1069 648,1069 547,1069 545,1069 543,1069 540,1069 540,1072 529,1083 527,1083 524,1083 476,1069 474,1069 472,1069 469,1069 433,1081 428,1083 426,1081 407,1069 405,1069 403,1069 339,1069 336,1069 334,1069 332,1069 320,1081 316,1085 236,1085 231,1081 215,1069 213,1069 210,1069 208,1069 36,1079 36,1127"/>
+        <Baseline points="36,1127 967,1127"/>
+        <TextEquiv conf="0.9999999807726953">
+          <Unicode>Maschinenfabrik Göllnitz &amp; Co.,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_056e7767" >
+        <Coords points="34,1200 34,1230 100,1221 341,1228 414,1230 417,1230 419,1230 430,1228 462,1218 586,1225 662,1228 664,1228 1189,1214 1191,1193 1184,1140 32,1147 34,1200"/>
+        <Baseline points="34,1200 1191,1193"/>
+        <TextEquiv conf="0.9971946477890015">
+          <Unicode>Borna Bez. Leipzig, Altenburger Str. 14/6.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_783b401d" >
+        <Coords points="38,1269 38,1292 1152,1280 1155,1262 1148,1228 36,1234 38,1269"/>
+        <Baseline points="38,1269 1155,1262"/>
+        <TextEquiv conf="0.9976281681839301">
+          <Unicode>Fernruf: Borna 505/6. Drahtanschrift: beuma borna</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_24b4c7c5" >
+        <Coords points="41,1310 41,1331 387,1326 389,1305 382,1273 38,1278 41,1310"/>
+        <Baseline points="41,1310 389,1305"/>
+        <TextEquiv conf="0.9980615893999736">
+          <Unicode>Gründung: 1867.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e8768be5" >
+        <Coords points="41,1354 41,1372 1189,1365 1191,1342 1184,1312 38,1312 41,1354"/>
+        <Baseline points="41,1354 1191,1342"/>
+        <TextEquiv conf="0.9992821216583252">
+          <Unicode>Fabrikationsprogramm: Maschinen u. Apparate für die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3d5ab5c4" >
+        <Coords points="43,1392 43,1413 1035,1406 1038,1386 1031,1356 41,1360 43,1392"/>
+        <Baseline points="43,1392 1038,1386"/>
+        <TextEquiv conf="0.9904766277391084">
+          <Unicode>Fleischverarbeitung u. Schlachthauseinrichtungen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_9ec0141a" >
+        <Coords points="41,1436 41,1457 1191,1454 1191,1425 1184,1388 38,1404 41,1436"/>
+        <Baseline points="41,1436 1191,1425"/>
+        <TextEquiv conf="0.9996137667675408">
+          <Unicode>Bankverbindungen: Stadtbank Konto 322, Allgemeine</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fad8b248" >
+        <Coords points="43,1477 43,1502 682,1493 685,1470 678,1441 41,1441 43,1477"/>
+        <Baseline points="43,1477 685,1470"/>
+        <TextEquiv conf="0.9998731382431523">
+          <Unicode>Deutsche Credit-Anstalt, Borna.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_96956aab" >
+        <Coords points="1139,1512 1141,1555 1184,1555 1182,1507 1175,1473 1134,1475 1139,1512"/>
+        <Baseline points="1139,1512 1182,1507"/>
+        <TextEquiv conf="1.0">
+          <Unicode>*</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8a0d6e94" >
+        <Coords points="38,1521 38,1548 799,1532 802,1514 795,1482 36,1486 38,1521"/>
+        <Baseline points="38,1521 802,1514"/>
+        <TextEquiv conf="0.9993599851926168">
+          <Unicode>Postscheck-Konto: 88 898 Leipzig.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_7_1"  >
+      <Coords points="1315,334 2479,334 2479,686 1315,686"/>
+      <TextLine id="eSc_line_5beb0def" >
+        <Coords points="2456,329 2443,323 1948,320 1929,323 1906,323 1883,323 1860,323 1838,323 1815,323 1792,323 1769,323 1746,323 1723,325 1700,325 1677,325 1654,325 1631,325 1608,325 1592,329 1524,325 1517,327 1494,327 1471,327 1448,327 1425,327 1402,327 1379,327 1356,327 1345,327 1329,329 1310,343 1313,368 1313,391 2475,380 2477,359 2472,339 2456,329"/>
+        <Baseline points="1313,368 2477,359"/>
+        <TextEquiv conf="0.9982220496122653">
+          <Unicode>Fabrikationsprogramm: Sägen; Säge- u. Feilmaschinen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b6a5b6d7" >
+        <Coords points="1315,412 1315,435 2475,426 2477,403 2470,366 1313,380 1315,412"/>
+        <Baseline points="1315,412 2477,403"/>
+        <TextEquiv conf="0.993915491104126">
+          <Unicode>Anteileigner: Ernst, Hermann und Dr. Otto Beutten-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_88f83200" >
+        <Coords points="1317,451 1317,476 1645,469 1645,451 1645,421 1317,419 1317,451"/>
+        <Baseline points="1317,451 1645,451"/>
+        <TextEquiv conf="1.0">
+          <Unicode>müller, Bretten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2756f37c" >
+        <Coords points="1317,494 1317,515 2051,508 2053,488 2046,458 1315,458 1317,494"/>
+        <Baseline points="1317,494 2053,488"/>
+        <TextEquiv conf="0.9999996388659758">
+          <Unicode>Geschäftsführer: Die Anteileigner.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5bc94642" >
+        <Coords points="2475,501 1320,494 1320,533 1320,554 2475,561 2477,533 2477,508 2475,501"/>
+        <Baseline points="1320,533 2477,533"/>
+        <TextEquiv conf="0.9873809169749824">
+          <Unicode>Bankverbindungen: Deutsche Bank u. Disconto-Ges.,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_db9a7ab0" >
+        <Coords points="1320,575 1320,595 1755,593 1757,570 1753,542 1317,540 1320,575"/>
+        <Baseline points="1320,575 1757,570"/>
+        <TextEquiv conf="0.999847065834772">
+          <Unicode>Vereinsbank, Bretten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7b8cc7a4" >
+        <Coords points="1317,618 1317,639 2064,636 2064,618 2064,588 1317,586 1317,618"/>
+        <Baseline points="1317,618 2064,618"/>
+        <TextEquiv conf="0.9929501811663309">
+          <Unicode>Postscheck-Konto: 2163 Karlsruhe.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d1e479e3" >
+        <Coords points="1317,662 1317,682 1936,687 1938,657 1931,627 1315,630 1317,662"/>
+        <Baseline points="1317,662 1938,657"/>
+        <TextEquiv conf="0.9999996934618268">
+          <Unicode>Geschäftsjahr: Kalenderjahr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_8_1"  >
+      <Coords points="1317,777 2488,777 2488,1902 1317,1902"/>
+      <TextLine id="eSc_line_89507eee" >
+        <Coords points="1313,820 1310,838 2296,852 2300,824 2300,778 2234,762 2232,762 2229,762 2227,762 2225,762 2207,776 2165,762 2163,762 2030,762 2028,762 2025,762 2023,762 2007,774 2000,778 1977,774 1943,765 1941,765 1938,765 1890,772 1842,778 1805,769 1769,760 1766,760 1764,760 1762,760 1737,767 1709,776 1645,767 1604,760 1601,760 1599,760 1597,760 1597,762 1592,765 1579,778 1384,778 1313,760 1313,820"/>
+        <Baseline points="1313,820 2300,824"/>
+        <TextEquiv conf="0.9999999692363124">
+          <Unicode>Bevenser Maschinenfabrik K.-G.,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0164c886" >
+        <Coords points="1315,898 1315,916 1652,930 1654,930 1656,930 1693,918 1870,927 1872,927 1952,916 2087,927 2090,927 2092,927 2124,911 2124,893 2119,854 2085,854 2085,852 2069,838 2069,836 2067,836 2064,836 2062,836 1984,838 1982,838 1980,838 1966,850 1948,836 1945,836 1943,836 1941,836 1938,836 1888,850 1876,852 1863,850 1812,838 1810,838 1808,838 1769,847 1750,852 1705,847 1640,840 1638,840 1636,840 1634,840 1624,845 1611,854 1313,843 1315,898"/>
+        <Baseline points="1315,898 2124,893"/>
+        <TextEquiv conf="0.9999146103858948">
+          <Unicode>Bevensen (Lünebg. Heide).</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7f91a9bf" >
+        <Coords points="1320,962 1320,987 2158,976 2161,955 2156,927 2003,916 2000,916 1317,927 1320,962"/>
+        <Baseline points="1320,962 2161,955"/>
+        <TextEquiv conf="0.9999845334001489">
+          <Unicode>Fernruf: 208. Drahtanschrift: Adresse</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_44d3b617" >
+        <Coords points="1322,1003 1322,1024 2000,1021 2003,1001 1996,971 1320,971 1322,1003"/>
+        <Baseline points="1322,1003 2003,1001"/>
+        <TextEquiv conf="0.9999413547977325">
+          <Unicode>Gründung: 1898; seit 1936 K.-G.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_48d48f9c" >
+        <Coords points="2406,1008 1320,1008 1322,1047 1322,1067 2417,1065 2417,1037 2410,1008 2406,1008"/>
+        <Baseline points="1322,1047 2417,1037"/>
+        <TextEquiv conf="0.9995651537058304">
+          <Unicode>Fabrikationsprogramm: Spezialität: „Erica“-Motor-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_2427ef05" >
+        <Coords points="1322,1088 1322,1111 1677,1104 1679,1083 1675,1056 1320,1056 1322,1088"/>
+        <Baseline points="1322,1088 1679,1083"/>
+        <TextEquiv conf="0.9985448978841305">
+          <Unicode>Dreschmaschinen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_21c0e169" >
+        <Coords points="1324,1129 1324,1147 2108,1147 2108,1129 2106,1088 1324,1095 1324,1129"/>
+        <Baseline points="1324,1129 2108,1129"/>
+        <TextEquiv conf="0.9869181414445242">
+          <Unicode>Gesellschafter: Wilhelm Schulze sen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_26eb9e8f" >
+        <Coords points="1324,1173 1324,1191 2399,1184 2401,1166 2397,1136 1322,1131 1324,1173"/>
+        <Baseline points="1324,1173 2401,1166"/>
+        <TextEquiv conf="0.9952003722097359">
+          <Unicode>Prokuristen: Heinrich Schulze jr., Heinrich Gasper.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_32dafb65" >
+        <Coords points="1322,1211 1322,1232 2477,1239 2479,1211 2479,1177 1322,1175 1322,1211"/>
+        <Baseline points="1322,1211 2479,1211"/>
+        <TextEquiv conf="0.9999998569488525">
+          <Unicode>Bankverbindungen: Kreissparkasse Uelzen, Bevensen;</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0e621eee" >
+        <Coords points="1322,1253 1322,1273 2220,1269 2223,1248 2218,1218 1320,1218 1322,1253"/>
+        <Baseline points="1322,1253 2223,1248"/>
+        <TextEquiv conf="0.99998719394207">
+          <Unicode>Commerz- u. Privat-Bank A.-G., Hannover.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_169ea617" >
+        <Coords points="1322,1296 1322,1321 2067,1317 2069,1294 2064,1264 1320,1262 1322,1296"/>
+        <Baseline points="1322,1296 2069,1294"/>
+        <TextEquiv conf="0.9999999180436134">
+          <Unicode>Postscheck-Konto: 2207 Hannover.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1e030c5b" >
+        <Coords points="1322,1340 1322,1358 1950,1365 1952,1340 1952,1308 1322,1308 1322,1340"/>
+        <Baseline points="1322,1340 1952,1340"/>
+        <TextEquiv conf="0.9999671961580004">
+          <Unicode>Geschäftsjahr: Kalenderjahr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5ac0a8d3" >
+        <Coords points="1322,1402 1322,1425 2310,1425 2312,1395 2307,1365 1320,1363 1322,1402"/>
+        <Baseline points="1322,1402 2312,1395"/>
+        <TextEquiv conf="0.9947320090399848">
+          <Unicode>Grundbesitz: 43 000 qm, davon 8700 qm bebaut.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3eb48b12" >
+        <Coords points="1322,1447 1322,1468 2475,1468 2477,1438 2470,1409 1320,1415 1322,1447"/>
+        <Baseline points="1322,1447 2477,1438"/>
+        <TextEquiv conf="0.9998908077969271">
+          <Unicode>Anlagen: Sägewerk, Schlosserei, Dreherei, Schmiede,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_03eb2133" >
+        <Coords points="1324,1486 1324,1505 2477,1509 2482,1482 2477,1452 1322,1450 1324,1486"/>
+        <Baseline points="1324,1486 2482,1482"/>
+        <TextEquiv conf="0.9999955208213241">
+          <Unicode>Tischlerei, Montagehalle, Lackiererei, Probierstation,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8acf9ef6" >
+        <Coords points="1322,1528 1322,1551 2117,1544 2119,1523 2115,1493 1320,1491 1322,1528"/>
+        <Baseline points="1322,1528 2119,1523"/>
+        <TextEquiv conf="0.999949646623511">
+          <Unicode>Dampfkessel-Anlage, Ausstellungshalle.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8d1eb664" >
+        <Coords points="1324,1573 1324,1592 2484,1578 2484,1562 2477,1532 1322,1539 1324,1573"/>
+        <Baseline points="1324,1573 2484,1562"/>
+        <TextEquiv conf="0.995982789768363">
+          <Unicode>Eigene Vertretungen: Ing. Curt Mentz, Berlin-Wilmers-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_060254ae" >
+        <Coords points="1324,1610 1324,1633 2477,1631 2479,1606 2472,1576 1322,1580 1324,1610"/>
+        <Baseline points="1324,1610 2479,1606"/>
+        <TextEquiv conf="0.9922774223720326">
+          <Unicode>dorf, Mecklenburgische Str. 73; Schliewen &amp; Timnik,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ac9fa04d" >
+        <Coords points="1326,1651 1326,1677 2479,1681 2482,1651 2479,1615 1326,1615 1326,1651"/>
+        <Baseline points="1326,1651 2482,1651"/>
+        <TextEquiv conf="0.992494489465441">
+          <Unicode>Königsberg/Pr., Viktoriastr. 9; V. &amp; F. Faßbender, Köln/</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d01ecdae" >
+        <Coords points="1324,1697 1324,1722 1927,1720 1927,1697 1927,1667 1324,1663 1324,1697"/>
+        <Baseline points="1324,1697 1927,1697"/>
+        <TextEquiv conf="0.9992814425911222">
+          <Unicode>Rhein, Luxemburger Str. 154.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fe5f5c6b" >
+        <Coords points="1324,1748 1324,1773 2484,1764 2486,1741 2482,1713 1322,1711 1324,1748"/>
+        <Baseline points="1324,1748 2486,1741"/>
+        <TextEquiv conf="0.9999987665487795">
+          <Unicode>Besondere Angaben: Export nach verschiedenen Län-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1c8a67e3" >
+        <Coords points="1326,1789 1326,1812 1430,1816 1432,1789 1432,1761 1326,1759 1326,1789"/>
+        <Baseline points="1326,1789 1432,1789"/>
+        <TextEquiv conf="1.0">
+          <Unicode>dern.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a9f959bf" >
+        <Coords points="1326,1835 1326,1858 2488,1848 2488,1826 2482,1782 1324,1793 1326,1835"/>
+        <Baseline points="1326,1835 2488,1826"/>
+        <TextEquiv conf="0.9937866985797882">
+          <Unicode>Gefolgschaft: 150 Mann (davon 18 Lehrlinge) und 10</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c3733954" >
+        <Coords points="1324,1878 1324,1897 1998,1890 1998,1871 1991,1842 1322,1846 1324,1878"/>
+        <Baseline points="1324,1878 1998,1871"/>
+        <TextEquiv conf="0.99999057687819">
+          <Unicode>Angestellte (davon 3 Lehrlinge).</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_4_1"  >
+      <Coords points="43,1633 1199,1633 1199,2408 43,2408"/>
+      <TextLine id="eSc_line_91b6d4d7" >
+        <Coords points="38,1686 38,1711 792,1702 792,1677 790,1635 740,1619 737,1619 735,1619 632,1631 605,1619 602,1619 600,1619 598,1619 595,1619 595,1622 593,1622 584,1633 582,1635 561,1633 488,1622 485,1622 421,1631 375,1638 359,1631 346,1624 343,1624 341,1624 295,1631 220,1640 36,1628 38,1686"/>
+        <Baseline points="38,1686 792,1677"/>
+        <TextEquiv conf="0.9943479014479596">
+          <Unicode>Beumer Maschinenfabrik,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_1d83368d" >
+        <Coords points="41,1757 41,1773 456,1775 460,1752 453,1700 38,1704 41,1757"/>
+        <Baseline points="41,1757 460,1752"/>
+        <TextEquiv conf="1.0">
+          <Unicode>Beckum i. W.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_553d3182" >
+        <Coords points="43,1819 43,1842 880,1835 882,1814 877,1784 627,1771 625,1771 511,1782 481,1771 478,1771 476,1771 474,1771 472,1771 449,1784 160,1773 158,1773 91,1784 64,1773 61,1773 59,1773 57,1773 55,1773 41,1782 43,1819"/>
+        <Baseline points="43,1819 882,1814"/>
+        <TextEquiv conf="0.999897529950013">
+          <Unicode>Fernruf: 3434. Drahtanschrift: beumer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_42a64d7d" >
+        <Coords points="48,1862 48,1883 912,1881 914,1853 907,1826 45,1826 48,1862"/>
+        <Baseline points="48,1862 914,1853"/>
+        <TextEquiv>
+          <Unicode>Gründung: 1936 (Werk besteht seit 1900).</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5ae87bd4" >
+        <Coords points="45,1906 45,1924 1196,1917 1198,1897 1194,1867 43,1867 45,1906"/>
+        <Baseline points="45,1906 1198,1897"/>
+        <TextEquiv conf="0.9985304872194926">
+          <Unicode>Fabrikationsprogramm: Transport- u. Verladeanlagen;</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_88f85b07" >
+        <Coords points="50,1945 50,1968 643,1968 646,1942 641,1913 48,1910 50,1945"/>
+        <Baseline points="50,1945 646,1942"/>
+        <TextEquiv conf="0.9999995191891988">
+          <Unicode>Einrichtungen für Fließarbeit.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_62006ef7" >
+        <Coords points="48,1988 48,2009 653,2011 657,1981 653,1954 45,1954 48,1988"/>
+        <Baseline points="48,1988 657,1981"/>
+        <TextEquiv conf="0.9999964237213135">
+          <Unicode>Inhaber: Obering. B. Beumer.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_795e59e8" >
+        <Coords points="48,2032 48,2050 618,2059 621,2059 1198,2041 1198,2023 1191,1993 45,1997 48,2032"/>
+        <Baseline points="48,2032 1198,2023"/>
+        <TextEquiv conf="0.9952291413849476">
+          <Unicode>Bankverbindungen: Dresdner Bank, Spar- u. Darlehns-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c476fe04" >
+        <Coords points="48,2073 48,2091 343,2089 346,2071 341,2041 45,2036 48,2073"/>
+        <Baseline points="48,2073 346,2071"/>
+        <TextEquiv conf="0.9716977179050446">
+          <Unicode>kasse, Beckum.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ff71bdd8" >
+        <Coords points="48,2114 48,2135 815,2137 820,2107 815,2078 45,2075 48,2114"/>
+        <Baseline points="48,2114 820,2107"/>
+        <TextEquiv conf="0.9972740534473868">
+          <Unicode>Postscheck-Konto: 11 827 Dortmund.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c525189f" >
+        <Coords points="48,2158 48,2176 634,2171 637,2153 630,2123 45,2126 48,2158"/>
+        <Baseline points="48,2158 637,2153"/>
+        <TextEquiv conf="0.9952349535056523">
+          <Unicode>Geschäftsjahr: 1./1.—31./12.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5357c01a" >
+        <Coords points="50,2217 50,2238 1132,2233 1134,2213 1127,2171 48,2174 50,2217"/>
+        <Baseline points="50,2217 1134,2213"/>
+        <TextEquiv conf="0.9888505619399401">
+          <Unicode>Grundbesitz: ca. 11 000 qm, davon 6000 qm bebaut.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_982e4328" >
+        <Coords points="50,2263 50,2284 1198,2275 1200,2254 1194,2220 48,2231 50,2263"/>
+        <Baseline points="50,2263 1200,2254"/>
+        <TextEquiv conf="0.9999977740374478">
+          <Unicode>Anlagen: Dreherei, Schweißerei u. Schlosserei, Montage-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_499b721d" >
+        <Coords points="50,2304 50,2323 957,2325 962,2300 957,2270 48,2270 50,2304"/>
+        <Baseline points="50,2304 962,2300"/>
+        <TextEquiv conf="1.0">
+          <Unicode>hallen; Gleisanschluß; techn. u. kaufm. Büro.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_03da54c1" >
+        <Coords points="50,2343 50,2369 1200,2369 1200,2339 1194,2307 48,2314 50,2343"/>
+        <Baseline points="50,2343 1200,2339"/>
+        <TextEquiv conf="0.9999483260843489">
+          <Unicode>Gefolgschaft: ca. 86 Mann. einschl. Lehrlinge u. Ange-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_fb07bfdf" >
+        <Coords points="50,2389 50,2421 185,2421 185,2389 185,2359 50,2357 50,2389"/>
+        <Baseline points="50,2389 185,2389"/>
+        <TextEquiv conf="0.9999999403953552">
+          <Unicode>stellte.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_1_1"  >
+      <Coords points="2075,183 2469,183 2469,253 2075,253"/>
+      <TextLine id="eSc_line_faa717e7" >
+        <Coords points="2459,194 2447,183 2376,174 2367,174 2344,174 2321,174 2307,174 2296,183 2294,187 2184,187 2174,180 2161,174 2161,174 2138,174 2129,174 2069,178 2069,222 2069,252 2472,242 2472,222 2470,213 2459,194"/>
+        <Baseline points="2069,222 2472,222"/>
+        <TextEquiv conf="0.9999996920426687">
+          <Unicode>Beug — Beyer</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_9_1"  >
+      <Coords points="1327,2005 2494,2005 2494,2690 1327,2690"/>
+      <TextLine id="eSc_line_45d90b44" >
+        <Coords points="1322,2068 2349,2071 2353,2052 2353,2011 2307,1993 2305,1993 2147,1993 2145,1993 2142,1993 2140,1993 2124,2007 2117,2011 2076,2011 2069,2004 2058,1995 2055,1995 2053,1995 1966,1993 1964,1993 1961,1993 1936,2002 1918,2009 1897,2002 1876,1993 1874,1993 1872,1993 1870,1993 1854,2000 1838,2009 1817,2000 1796,1990 1794,1990 1792,1990 1789,1990 1764,2000 1737,2007 1627,1995 1611,1995 1608,1995 1606,1995 1604,1995 1590,2009 1391,2009 1326,1990 1324,2048 1322,2068"/>
+        <Baseline points="1324,2048 2353,2052"/>
+        <TextEquiv conf="0.9921662756374904">
+          <Unicode>Bewetterungs-Gesellschaft m. b. H.,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_43a2aad3" >
+        <Coords points="1324,2126 1324,2142 2280,2137 2282,2119 2280,2075 2227,2062 2225,2062 2223,2062 2138,2073 2133,2073 2124,2073 1982,2064 1980,2064 1977,2064 1959,2073 1950,2078 1833,2078 1824,2071 1812,2064 1810,2064 1808,2064 1805,2064 1737,2071 1684,2075 1663,2071 1643,2064 1640,2064 1638,2064 1636,2064 1634,2064 1624,2071 1611,2078 1597,2068 1590,2066 1588,2066 1432,2066 1430,2066 1427,2066 1425,2066 1423,2068 1411,2078 1322,2068 1324,2126"/>
+        <Baseline points="1324,2126 2282,2119"/>
+        <TextEquiv conf="0.9999957270920277">
+          <Unicode>Berlin W 62, Kurfürstenstr. 105.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_dca46161" >
+        <Coords points="1329,2201 1329,2231 2328,2220 2330,2197 2326,2167 2188,2153 2186,2153 2184,2153 2181,2153 2165,2165 2149,2153 2147,2153 2145,2153 2142,2153 2140,2153 2138,2153 2124,2165 2122,2167 1986,2167 1959,2162 1876,2153 1874,2153 1872,2153 1842,2162 1821,2167 1326,2158 1329,2201"/>
+        <Baseline points="1329,2201 2330,2197"/>
+        <TextEquiv conf="0.9995123264582261">
+          <Unicode>Fernruf: 24 10 38/39. Drahtanschrift: klimator</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_7a2fa537" >
+        <Coords points="1329,2242 1326,2268 1684,2270 1689,2247 1686,2213 1329,2210 1329,2242"/>
+        <Baseline points="1329,2242 1689,2247"/>
+        <TextEquiv conf="0.9986736893653869">
+          <Unicode>Gründung: 1933.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6f98e972" >
+        <Coords points="1331,2286 1331,2307 2486,2311 2491,2281 2484,2249 1329,2252 1331,2286"/>
+        <Baseline points="1331,2286 2491,2281"/>
+        <TextEquiv conf="0.9998242995318245">
+          <Unicode>Fabrikationsprogramm: Konstruktion und Installation</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d18b61f5" >
+        <Coords points="1331,2330 1331,2348 1826,2346 1828,2327 1824,2297 1329,2293 1331,2330"/>
+        <Baseline points="1331,2330 1828,2327"/>
+        <TextEquiv conf="0.9798021440704664">
+          <Unicode>lufttechnischer Anlagen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0c6211d9" >
+        <Coords points="1331,2371 1331,2394 1799,2391 1801,2366 1794,2336 1329,2336 1331,2371"/>
+        <Baseline points="1331,2371 1801,2366"/>
+        <TextEquiv conf="0.9884578103110904">
+          <Unicode>Kapital: RM 50 000.—.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a8ad23d7" >
+        <Coords points="1333,2414 1333,2435 2486,2423 2488,2403 2482,2366 1331,2382 1333,2414"/>
+        <Baseline points="1333,2414 2488,2403"/>
+        <TextEquiv conf="0.9998876506632025">
+          <Unicode>Anteileigner: Dihag Deutsche Industrie u. Handels A.-G.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e813f549" >
+        <Coords points="1331,2456 1331,2481 2488,2474 2491,2451 2484,2421 1329,2421 1331,2456"/>
+        <Baseline points="1331,2456 2491,2451"/>
+        <TextEquiv conf="0.998937855351646">
+          <Unicode>Geschäftsführer: Obering. Kurt Eulitz, Dipl.-Kfm. Al-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_8cf89245" >
+        <Coords points="1333,2497 1333,2520 1608,2520 1611,2492 1604,2460 1331,2462 1333,2497"/>
+        <Baseline points="1333,2497 1611,2492"/>
+        <TextEquiv conf="0.9998979109984177">
+          <Unicode>fred Peschko.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f6f55462" >
+        <Coords points="1333,2536 1333,2559 1966,2559 1966,2536 1964,2504 1333,2504 1333,2536"/>
+        <Baseline points="1333,2536 1966,2536"/>
+        <TextEquiv conf="0.9965330106871468">
+          <Unicode>Prokurist: Richard Hoffmann.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_afaeb400" >
+        <Coords points="1333,2582 1333,2607 2211,2600 2211,2575 2207,2545 1331,2543 1333,2582"/>
+        <Baseline points="1333,2582 2211,2575"/>
+        <TextEquiv conf="0.9896699723444486">
+          <Unicode>Bankverbindung: Dresdner Bank, Berlin.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f04026e1" >
+        <Coords points="1333,2618 1331,2639 2025,2641 2030,2623 2028,2591 1333,2586 1333,2618"/>
+        <Baseline points="1333,2618 2030,2623"/>
+        <TextEquiv conf="0.9827596880495548">
+          <Unicode>Postscheck-Konto: 82 081 Berlin.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_692c320a" >
+        <Coords points="1331,2666 1331,2685 1950,2678 1950,2659 1943,2625 1329,2630 1331,2666"/>
+        <Baseline points="1331,2666 1950,2659"/>
+        <TextEquiv conf="0.9824338470186506">
+          <Unicode>Geschäftsjahr: Kalenderjahr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_5_1"  >
+      <Coords points="54,2491 1208,2491 1208,3314 54,3314"/>
+      <TextLine id="eSc_line_e70f8c1c" >
+        <Coords points="48,2497 48,2538 48,2561 1182,2561 1182,2538 1182,2495 1125,2481 1122,2481 1067,2492 1065,2492 1049,2481 1047,2481 1045,2481 1042,2481 1040,2481 1017,2492 1003,2481 1001,2481 999,2481 996,2481 994,2481 992,2481 976,2492 971,2495 847,2495 834,2490 804,2481 802,2481 799,2481 735,2488 696,2492 641,2488 577,2481 575,2481 572,2481 570,2481 563,2485 554,2492 499,2485 460,2481 458,2481 456,2481 453,2481 449,2485 440,2495 343,2495 327,2483 325,2481 323,2481 320,2481 318,2481 286,2483 167,2492 50,2481 48,2497"/>
+        <Baseline points="48,2538 1182,2538"/>
+        <TextEquiv conf="0.9978725249702866">
+          <Unicode>Richard Beutel Schnittwerkzeugfabrik,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_b347aa2a" >
+        <Coords points="48,2611 48,2630 132,2643 135,2646 238,2646 238,2643 240,2643 242,2643 242,2641 254,2632 323,2643 325,2643 1070,2630 1070,2607 1065,2570 992,2552 990,2552 987,2552 925,2568 873,2552 870,2552 868,2552 866,2552 831,2570 728,2570 694,2552 692,2552 689,2552 687,2552 655,2568 632,2552 630,2552 627,2552 625,2552 623,2552 559,2570 554,2570 550,2570 508,2554 506,2554 504,2554 501,2554 465,2570 462,2570 460,2570 410,2554 407,2554 334,2554 332,2554 330,2554 327,2554 327,2556 311,2570 309,2572 174,2572 171,2570 155,2556 155,2554 153,2554 151,2554 57,2554 55,2554 52,2554 50,2554 50,2556 48,2556 45,2556 48,2611"/>
+        <Baseline points="48,2611 1070,2607"/>
+        <TextEquiv conf="0.9979275973404155">
+          <Unicode>Eßlingen (N.), Berkheimer Str. 10.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_26634156" >
+        <Coords points="52,2673 50,2701 930,2698 932,2678 930,2646 52,2632 52,2673"/>
+        <Baseline points="52,2673 932,2678"/>
+        <TextEquiv conf="0.9999815255403519">
+          <Unicode>Fernruf: 6912. Drahtanschrift: (Adresse)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_e21a0bc7" >
+        <Coords points="55,2721 55,2740 394,2744 398,2717 391,2687 52,2687 55,2721"/>
+        <Baseline points="55,2721 398,2717"/>
+        <TextEquiv>
+          <Unicode>Gründung: 1919.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_ca831e2f" >
+        <Coords points="55,2721 55,2760 55,2781 1205,2774 1207,2753 1200,2717 1045,2721 1029,2717 1012,2710 1010,2710 1008,2710 1006,2710 992,2717 971,2726 847,2726 728,2717 666,2712 664,2712 625,2717 538,2726 499,2717 483,2712 481,2712 478,2712 476,2712 467,2717 437,2731 93,2731 66,2721 55,2721"/>
+        <Baseline points="55,2760 1207,2753"/>
+        <TextEquiv conf="0.9999966013665292">
+          <Unicode>Fabrikationsprogramm: Schnitt-, Stanz- u. Preßwerk-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_dd34c9fa" >
+        <Coords points="55,2797 52,2822 1196,2818 1198,2802 1196,2772 55,2767 55,2797"/>
+        <Baseline points="55,2797 1198,2802"/>
+        <TextEquiv conf="0.9985994112257864">
+          <Unicode>zeuge für die spanlose Verarbeitung. Preßformen für</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_574d0823" >
+        <Coords points="55,2843 55,2866 1035,2866 1035,2843 1035,2813 55,2811 55,2843"/>
+        <Baseline points="55,2843 1035,2843"/>
+        <TextEquiv conf="0.999999797862509">
+          <Unicode>Kunstharze. Spritzgußformen für Leichtmetalle.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_66ce09d3" >
+        <Coords points="57,2882 55,2912 563,2912 566,2886 563,2850 57,2850 57,2882"/>
+        <Baseline points="57,2882 566,2886"/>
+        <TextEquiv conf="0.9997052103281021">
+          <Unicode>Inhaber: Richard Beutel.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_5413dcf7" >
+        <Coords points="57,2928 57,2946 1205,2948 1207,2923 1200,2884 55,2893 57,2928"/>
+        <Baseline points="57,2928 1207,2923"/>
+        <TextEquiv conf="0.9999275915324688">
+          <Unicode>Bankverbindung: Handels- u. Gewerbebank e. G. m.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_174583e9" >
+        <Coords points="59,2966 57,2985 419,2989 423,2971 421,2941 59,2932 59,2966"/>
+        <Baseline points="59,2966 423,2971"/>
+        <TextEquiv conf="0.999999377462599">
+          <Unicode>b. H., Eßlingen/N.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_09288025" >
+        <Coords points="57,3012 57,3033 804,3038 809,3008 804,2978 55,2973 57,3012"/>
+        <Baseline points="57,3012 809,3008"/>
+        <TextEquiv conf="0.999730064187731">
+          <Unicode>Postscheck-Konto: 17 574 Stuttgart.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_34126cec" >
+        <Coords points="57,3054 57,3074 648,3076 650,3054 650,3024 57,3017 57,3054"/>
+        <Baseline points="57,3054 650,3054"/>
+        <TextEquiv conf="0.9999991229602269">
+          <Unicode>Geschäftsjahr: 1./1.—31./12.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_dd47e9db" >
+        <Coords points="59,3113 57,3131 992,3134 996,3118 994,3076 59,3074 59,3113"/>
+        <Baseline points="59,3113 996,3118"/>
+        <TextEquiv conf="0.9921871523062388">
+          <Unicode>Grundbesitz: 1000 qm, davon 450 qm bebaut.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_f61ef67b" >
+        <Coords points="59,3159 59,3182 1203,3177 1205,3154 1200,3125 57,3122 59,3159"/>
+        <Baseline points="59,3159 1205,3154"/>
+        <TextEquiv conf="0.9997391557251966">
+          <Unicode>Gefolgschaft: 40 Arbeiter (davon 9 Lehrlinge) u. 5 An-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_cd5d7483" >
+        <Coords points="61,3196 59,3223 231,3223 233,3200 231,3168 61,3164 61,3196"/>
+        <Baseline points="61,3196 233,3200"/>
+        <TextEquiv conf="0.9999999284744263">
+          <Unicode>gestellte.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_4c7ed3dd" >
+        <Coords points="59,3241 59,3267 1210,3264 1210,3241 1210,3205 460,3198 458,3198 456,3198 453,3198 453,3200 444,3207 442,3212 300,3212 297,3209 284,3198 281,3198 279,3198 277,3198 275,3198 245,3209 242,3212 59,3212 59,3241"/>
+        <Baseline points="59,3241 1210,3241"/>
+        <TextEquiv conf="0.9999999713897705">
+          <Unicode>Zur Ausbildung des Nachwuchses wird eine besondere</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_df2ea6f3" >
+        <Coords points="59,3285 57,3303 705,3308 710,3290 708,3251 59,3248 59,3285"/>
+        <Baseline points="59,3285 710,3290"/>
+        <TextEquiv conf="0.9999999701976776">
+          <Unicode>Lehrlingswerkstätte unterhalten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_10_1"  >
+      <Coords points="1333,2792 2499,2792 2499,3223 1333,3223"/>
+      <TextLine id="eSc_line_fe63fb6b" >
+        <Coords points="1331,2840 1331,2863 2291,2854 2294,2834 2291,2795 2236,2779 2234,2779 2232,2779 2229,2779 2184,2792 2181,2792 2179,2792 2106,2779 2103,2779 2101,2779 2099,2779 2083,2792 2080,2795 1968,2795 1954,2790 1927,2781 1925,2781 1922,2781 1920,2781 1888,2790 1870,2795 1835,2790 1780,2781 1778,2781 1776,2781 1773,2781 1773,2783 1766,2788 1760,2795 1709,2788 1682,2785 1679,2785 1677,2785 1668,2788 1634,2797 1615,2788 1611,2783 1608,2783 1606,2783 1604,2783 1601,2783 1588,2788 1563,2795 1537,2785 1526,2783 1524,2783 1521,2783 1519,2783 1517,2783 1512,2785 1494,2797 1329,2785 1331,2840"/>
+        <Baseline points="1331,2840 2294,2834"/>
+        <TextEquiv conf="0.9945304095745087">
+          <Unicode>Eduard Beyer Glasformenfabrik,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_db0d7eea" >
+        <Coords points="1333,2912 1333,2930 2314,2932 2317,2912 2317,2870 2280,2857 2278,2857 2275,2857 2202,2870 2140,2859 2138,2859 2135,2859 2133,2859 2115,2873 1998,2873 1899,2873 1899,2870 1876,2857 1874,2857 1872,2857 1870,2857 1867,2857 1821,2870 1753,2857 1750,2857 1569,2870 1560,2870 1556,2870 1501,2857 1498,2857 1496,2857 1494,2857 1459,2870 1448,2859 1448,2857 1446,2857 1443,2857 1363,2857 1361,2857 1359,2857 1333,2868 1333,2912"/>
+        <Baseline points="1333,2912 2317,2912"/>
+        <TextEquiv conf="0.9932992891831831">
+          <Unicode>Oldenburg i. O., Dragonerstr. 38.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_cbd7f066" >
+        <Coords points="1336,2992 1336,3017 2431,3008 2433,2985 2429,2953 1333,2950 1336,2992"/>
+        <Baseline points="1336,2992 2433,2985"/>
+        <TextEquiv conf="0.9999999124176648">
+          <Unicode>Fernruf: 4613. Drahtanschrift: beyer formenfabrik</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_59980883" >
+        <Coords points="1338,3033 1338,3054 1698,3051 1700,3028 1693,2996 1336,3001 1338,3033"/>
+        <Baseline points="1338,3033 1700,3028"/>
+        <TextEquiv conf="0.9999902407328288">
+          <Unicode>Gründung: 1906.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_6fdd1115" >
+        <Coords points="1338,3076 1338,3097 2122,3093 2124,3072 2119,3042 1336,3040 1338,3076"/>
+        <Baseline points="1338,3076 2124,3072"/>
+        <TextEquiv conf="0.9999999891627919">
+          <Unicode>Fabrikationsprogramm: Glasformen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_4baa66ba" >
+        <Coords points="1340,3118 1340,3141 2493,3145 2495,3111 2488,3081 1338,3086 1340,3118"/>
+        <Baseline points="1340,3118 2495,3111"/>
+        <TextEquiv conf="0.9980484955012798">
+          <Unicode>Bankverbindungen: Oldbg. Landesbank, Reichsbank,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_3064e03d" >
+        <Coords points="1338,3159 1338,3177 1661,3184 1663,3159 1663,3129 1338,3127 1338,3159"/>
+        <Baseline points="1338,3159 1663,3159"/>
+        <TextEquiv conf="0.999055286248525">
+          <Unicode>Oldenburg i. O.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_d1a9e45d" >
+        <Coords points="2461,3219 2484,3219 2484,3191 2461,3191 2461,3219"/>
+        <Baseline points="2461,3191 2484,3191"/>
+        <TextEquiv conf="0.9999021291732788">
+          <Unicode>—</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_a227d886" >
+        <Coords points="1631,3161 1608,3161 1585,3161 1526,3170 1333,3161 1336,3205 1336,3237 2129,3216 2129,3196 2124,3157 1780,3157 1778,3157 1769,3157 1723,3168 1640,3161 1631,3161"/>
+        <Baseline points="1336,3205 2129,3196"/>
+        <TextEquiv conf="0.9965059985132778">
+          <Unicode>Postscheck-Konto: 10 611 Hannover.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_6_1"  >
+      <Coords points="61,3399 1086,3399 1086,3659 61,3659"/>
+      <TextLine id="eSc_line_427f9f44" >
+        <Coords points="55,3448 52,3466 77,3480 80,3480 82,3480 84,3480 121,3468 414,3482 417,3482 600,3475 740,3471 1081,3484 1086,3454 1086,3413 1040,3395 1038,3395 1035,3395 953,3406 916,3395 914,3395 912,3395 909,3395 907,3395 884,3411 877,3416 820,3416 811,3409 783,3395 781,3395 779,3395 776,3395 751,3409 742,3413 699,3413 692,3406 676,3393 673,3393 671,3393 669,3393 666,3393 618,3406 614,3406 609,3404 579,3395 577,3395 575,3395 572,3395 570,3395 570,3397 561,3404 552,3413 492,3413 474,3402 453,3393 451,3393 449,3393 446,3393 421,3402 398,3409 55,3395 55,3448"/>
+        <Baseline points="55,3448 1086,3454"/>
+        <TextEquiv conf="0.9961871239874098">
+          <Unicode>C. Beuttenmüller &amp; Cie. G. m. b. H.,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0bbac4bf" >
+        <Coords points="57,3500 57,3516 55,3537 229,3553 231,3553 550,3544 552,3523 552,3487 504,3468 501,3468 499,3468 497,3468 467,3484 465,3484 403,3473 401,3473 398,3473 396,3473 396,3475 387,3482 355,3466 352,3466 309,3466 307,3466 304,3466 302,3466 302,3468 286,3482 284,3482 112,3480 112,3477 96,3464 93,3464 91,3464 89,3464 87,3464 68,3471 57,3500"/>
+        <Baseline points="57,3516 552,3523"/>
+        <TextEquiv conf="0.9966446980834007">
+          <Unicode>Bretten (Baden).</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_476790ea" >
+        <Coords points="59,3583 57,3606 754,3622 756,3622 1015,3610 1017,3590 1015,3558 957,3544 955,3544 953,3544 907,3555 905,3555 900,3555 754,3544 751,3544 705,3555 696,3555 687,3555 621,3542 618,3542 616,3542 579,3553 577,3553 572,3553 469,3542 467,3542 465,3542 428,3553 423,3553 396,3553 199,3539 197,3539 59,3548 59,3583"/>
+        <Baseline points="59,3583 1017,3590"/>
+        <TextEquiv conf="0.9999986055285431">
+          <Unicode>Fernruf: 202. Drahtanschrift: beuttenmüller</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_0905f269" >
+        <Coords points="59,3629 57,3661 407,3668 412,3633 412,3597 59,3597 59,3629"/>
+        <Baseline points="59,3629 412,3633"/>
+        <TextEquiv conf="0.9999994436899821">
+          <Unicode>Gründung: 1862.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_11_1"  >
+      <Coords points="1341,3337 1854,3337 1854,3440 1341,3440"/>
+      <TextLine id="eSc_line_8318b085" >
+        <Coords points="1336,3372 1336,3390 1572,3386 1574,3367 1569,3328 1333,3322 1336,3372"/>
+        <Baseline points="1336,3372 1574,3367"/>
+        <TextEquiv conf="0.9488524049520493">
+          <Unicode>H. Bever</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_363726eb" >
+        <Coords points="1840,3379 1833,3377 1336,3383 1338,3420 1338,3448 1860,3436 1860,3416 1854,3383 1840,3379"/>
+        <Baseline points="1338,3420 1860,3416"/>
+        <TextEquiv conf="0.9999999772934687">
+          <Unicode>siehe Maschinenfabrik</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_12_1"  >
+      <Coords points="1342,3549 2001,3549 2001,3654 1342,3654"/>
+      <TextLine id="eSc_line_833323f4" >
+        <Coords points="1338,3583 1338,3608 1705,3601 1705,3583 1705,3544 1338,3544 1338,3583"/>
+        <Baseline points="1338,3583 1705,3583"/>
+        <TextEquiv conf="0.9999997786113194">
+          <Unicode>Heinrich Beyer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eSc_line_c4f0d1b5" >
+        <Coords points="1989,3590 1606,3585 1604,3585 1601,3585 1599,3585 1581,3597 1480,3587 1478,3587 1475,3587 1473,3587 1473,3590 1471,3590 1464,3599 1375,3590 1372,3590 1370,3590 1340,3601 1342,3635 1342,3656 1982,3658 1984,3658 1986,3658 1989,3658 2003,3647 2003,3624 2000,3619 1989,3590"/>
+        <Baseline points="1342,3635 2003,3624"/>
+        <TextEquiv conf="0.9999969491252193">
+          <Unicode>siehe Flensbg. Pumvenfabrik</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r_13_1"  >
+      <Coords points="2433,3779 2505,3779 2505,3839 2433,3839"/>
+      <TextLine id="eSc_line_05aef235" >
+        <Coords points="2491,3771 2420,3773 2424,3819 2424,3844 2509,3855 2511,3814 2502,3789 2491,3771"/>
+        <Baseline points="2424,3819 2511,3814"/>
+        <TextEquiv conf="1.0">
+          <Unicode>69</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>
