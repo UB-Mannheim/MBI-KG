@@ -14,6 +14,7 @@
   * [Code](#code)
 * [How to contribute](#how-to-contribute)
 * [License](#license)
+* [Attribution](#attribution)
 
 ### Repo structure
 
@@ -103,4 +104,8 @@ More info in [CONTRIBUTING.md](https://github.com/UB-Mannheim/MBI-KG/blob/main/C
 
 ## License
 
-This work is licensed under the MIT license (code) and Creative Commons Attribution 4.0 International license (for everything else). You are free to share and adapt the material for any purpose, even commercially, as long as you provide attribution (see CITATION.cff).
+This work is licensed under the MIT license (code) and Creative Commons Attribution 4.0 International license (for everything else). You are free to share and adapt the material for any purpose, even commercially, as long as you provide attribution (see [Attribution](#attribution)).
+
+## Attribution
+
+* Shigapov, R., Schmidt, T., Kamlah, J., Schumm, I., Streb, J., & Lehmann-Hasemeyer, S. (2024). MBI-KG: Replication package for a knowledge graph of structured and linked economic research data extracted from the 1937 book "Die Maschinen-Industrie im Deutschen Reich". MADATA, [Dataset]. https://doi.org/10.7801/467.
