@@ -108,4 +108,8 @@ This work is licensed under the MIT license (code) and Creative Commons Attribut
 
 ## Attribution
 
+Dataset (replication package):
 * Shigapov, R., Schmidt, T., Kamlah, J., Schumm, I., Streb, J., & Lehmann-Hasemeyer, S. (2024). MBI-KG: Replication package for a knowledge graph of structured and linked economic research data extracted from the 1937 book "Die Maschinen-Industrie im Deutschen Reich". MADATA, [Dataset]. https://doi.org/10.7801/467.
+
+Paper:
+* Shigapov, R., Schmidt, T., Kamlah, J., Schumm, I., Streb, J., & Lehmann-Hasemeyer, S. (2024). MBI-KG: A knowledge graph of structured and linked economic research data extracted from the 1937 book "Die Maschinen-Industrie im Deutschen Reich". Data in Brief, 111238. https://doi.org/10.1016/j.dib.2024.111238
