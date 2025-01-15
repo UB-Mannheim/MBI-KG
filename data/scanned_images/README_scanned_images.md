@@ -1,3 +1,3 @@
 # Scanned images
 
-This folder contains the scanned images of the original book pages in JPEG format with 400 dpi.
+Due to their file size, all scanned images (JPEG format, 400 dpi) of the original book pages can be found in the replication package: https://doi.org/10.7801/467
